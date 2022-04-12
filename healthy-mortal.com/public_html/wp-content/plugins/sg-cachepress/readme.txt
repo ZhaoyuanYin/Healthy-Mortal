@@ -328,6 +328,19 @@ Our plugin uses a cookie in order to function properly. It does not store person
 
 == Changelog ==
 
+= Version 7.0.9 =
+Release Date: April 7th, 2022
+
+* Improved SG Security plugin support
+
+= Version 7.0.8 =
+Release Date: April 6th, 2022
+
+* Improved File-Based cache checks
+* Improved Memcached service checks
+* Improved activation checks
+* Code Refactoring
+
 = Version 7.0.7 =
 Release Date: March 24th, 2022
 
@@ -336,7 +349,7 @@ Release Date: March 24th, 2022
 = Version 7.0.6 =
 Release Date: March 4th, 2022
 
-* Improved installation for users not hosted on SiteGround
+* Improved installation for users not hosted on SiteGround.
 
 = Version 7.0.5 =
 Release Date: March 2nd, 2022
