@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="e3913ae8-2fe3-42bb-b40f-3846e8d59d19" name="FIT5120" url="http://healthy-mortal.com">
-        <fileTransfer host="healthy-mortal.com" port="21">
+      <webServer id="e3913ae8-2fe3-42bb-b40f-3846e8d59d19" name="FIT5120" url="http://healthy-mortal.net">
+        <fileTransfer host="healthy-mortal.net" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
