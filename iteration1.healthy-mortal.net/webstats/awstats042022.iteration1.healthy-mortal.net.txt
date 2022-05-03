@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20161204)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2012                
-POS_TIME 2691                
-POS_VISITOR 7852                
-POS_DAY 9940                
-POS_DOMAIN 3362                
-POS_LOGIN 3724                
-POS_ROBOT 3879                
-POS_WORMS 4203                
-POS_EMAILSENDER 4334                
-POS_EMAILRECEIVER 4477                
-POS_SESSION 10133               
-POS_SIDER 10329               
-POS_FILETYPES 4612                
-POS_DOWNLOADS 4896                
-POS_OS 4944                
-POS_BROWSER 5117                
-POS_SCREENSIZE 5693                
-POS_UNKNOWNREFERER 5767                
-POS_UNKNOWNREFERERBROWSER 6043                
-POS_ORIGIN 6125                
-POS_SEREFERRALS 6263                
-POS_PAGEREFS 6426                
-POS_SEARCHWORDS 6574                
-POS_KEYWORDS 6726                
-POS_MISC 2354                
-POS_ERRORS 6785                
-POS_CLUSTER 3580                
-POS_SIDER_404 6930                
+POS_TIME 2701                
+POS_VISITOR 8106                
+POS_DAY 10566               
+POS_DOMAIN 3416                
+POS_LOGIN 3812                
+POS_ROBOT 3967                
+POS_WORMS 4323                
+POS_EMAILSENDER 4454                
+POS_EMAILRECEIVER 4597                
+POS_SESSION 10832               
+POS_SIDER 11028               
+POS_FILETYPES 4732                
+POS_DOWNLOADS 5016                
+POS_OS 5064                
+POS_BROWSER 5238                
+POS_SCREENSIZE 5876                
+POS_UNKNOWNREFERER 5950                
+POS_UNKNOWNREFERERBROWSER 6260                
+POS_ORIGIN 6376                
+POS_SEREFERRALS 6515                
+POS_PAGEREFS 6678                
+POS_SEARCHWORDS 6826                
+POS_KEYWORDS 6978                
+POS_MISC 2364                
+POS_ERRORS 7037                
+POS_CLUSTER 3668                
+POS_SIDER_404 7184                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,14 +46,14 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20220427030846 3173 1259055 0
+LastLine 20220501011710 3396 1337607 21232446405859
 FirstTime 20220423104812
-LastTime 20220427030845
-LastUpdate 20220427043848 3173 1997 1166 0 10
-TotalVisits 56                  
-TotalUnique 42                  
+LastTime 20220430040140
+LastUpdate 20220501043736 3396 3376 9 0 10
+TotalVisits 74                  
+TotalUnique 52                  
 MonthHostsKnown 0                   
-MonthHostsUnknown 55                  
+MonthHostsUnknown 65                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
@@ -63,7 +63,7 @@ JavaEnabled 0 0 0
 JavascriptDisabled 0 0 0
 PDFSupport 0 0 0
 WindowsMediaPlayerSupport 0 0 0
-AddToFavourites 0 51 0
+AddToFavourites 0 73 0
 RealPlayerSupport 0 0 0
 TotalMisc 0 0 0
 DirectorSupport 0 0 0
@@ -73,44 +73,47 @@ END_MISC
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
 0 0 0 0 0 0 0
-1 8 28 5624216 22 34 40447
-2 1 2 18188 3 4 5
+1 8 28 5624216 25 37 40933
+2 2 3 81189 6 7 11225
 3 1 3 22309 2 7 361
-4 35 118 1456624 12 31 181314
-5 8 97 4899681 14 16 12549
-6 47 425 10547855 7 12 56200
+4 39 132 4268732 21 46 195771
+5 8 97 4899681 18 20 13197
+6 52 449 12642306 9 15 67258
 7 7 57 5967359 5 6 12524
 8 0 0 0 0 0 0
-9 1 17 1227490 8 8 22456
-10 54 218 4124793 23 25 42002
+9 1 17 1227490 12 12 23104
+10 54 218 4124793 24 26 42164
 11 49 60 1410177 12 22 1284066
 12 279 870 23941551 12 23 176535
-13 25 56 2730285 7 18 164762
-14 303 854 19534074 60 121 827029
-15 1 1 118 0 0 0
-16 3 4 43315 2 3 27
-17 0 1 4119 7 10 22623
+13 25 56 2730285 11 22 165410
+14 305 874 21506428 63 125 838249
+15 9 9 974 2 2 324
+16 7 18 2855423 11 18 14484
+17 0 1 4119 10 13 23109
 18 0 0 0 0 0 0
-19 0 0 0 3 5 31
+19 4 14 2812108 15 23 36593
 20 0 0 0 0 0 0
-21 1 1 118 5 5 11544
+21 1 1 118 18 18 160681
 22 1 1 75 0 0 0
-23 0 0 0 0 0 0
+23 3 28 1525650 4 7 63368
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 10 first Pages must be first (order not required for others)
-BEGIN_DOMAIN 10
-au 752 2559 62852552
-us 39 125 12625235
-de 16 16 601312
-hk 6 41 3548378
+BEGIN_DOMAIN 13
+au 760 2611 66472653
+us 52 168 21061666
+de 18 18 601526
+hk 8 61 5520732
 ca 4 60 1773842
+ru 3 7 44723
 jp 2 2 28138
-ru 2 6 44616
+no 2 2 214
+fr 2 2 126023
 ie 1 2 15177
+hu 1 1 107
 nl 1 1 75
-fr 1 1 63022
+ro 1 1 107
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -124,11 +127,12 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 10 first Hits must be first (order not required for others)
-BEGIN_ROBOT 5
-wordpress 47 217196 20220427030844 0
+BEGIN_ROBOT 6
+wordpress 61 294679 20220430211104 0
 no_user_agent 12 56927 20220424141419 0
 python 11 0 20220425024855 0
-Apache\-HttpClient/ 2 28142 20220427013514 0
+Apache\-HttpClient/ 5 70355 20220430040123 0
+custo 3 189066 20220430211105 0
 ^mozilla\/5\.0$ 1 14071 20220426105317 0
 END_ROBOT
 
@@ -149,17 +153,17 @@ END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 11
-css 345 3145246 0 0
-png 100 8124444 0 0
+css 350 3648071 0 0
+png 121 8210943 0 0
 woff 4 38516 0 0
-woff2 37 2604360 0 0
+woff2 41 2877732 0 0
 php 397 9382901 0 0
-html 208 3359894 0 0
-js 1153 17975667 0 0
-jpg 332 36545658 0 0
-Unknown 178 161061 0 0
-svg 47 77956 0 0
+html 227 3663399 0 0
+jpg 353 49084372 0 0
+js 1198 18362532 0 0
+Unknown 186 161917 0 0
 gif 12 136644 0 0
+svg 47 77956 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -168,43 +172,46 @@ END_DOWNLOADS
 
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 8
-linuxandroid 2 2
+macosx 38 4
+linuxandroid 30 5
 ios_iphone 11 11
-linux 6 2
-win7 28 4
-macosx 24 2
 macosx10 1 1
-win10 2713 774
-Unknown 28 28
+win10 2760 787
+Unknown 36 36
+linux 8 2
+win7 52 9
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 25
+BEGIN_BROWSER 28
 chrome37.0.2062.124 1 1
+chrome95.0.4638.69 65 6
 chrome98.0.4758.102 30 2
-chrome95.0.4638.69 59 5
 android 2 2
 safari10.0 10 10
-firefox91.0 1 1
 chrome79.0.3945.79 34 2
+firefox91.0 5 3
 chrome100.0.4896.60 19 1
-firefox58.0 1 1
 chrome36.0.1985.67 1 1
-opera80.0.4170.63 2 1
-chrome100.0.4896.127 21 4
-firefox45.0 1 1
+firefox58.0 1 1
+opera80.0.4170.63 5 2
+chrome86.0.4240.99 28 3
+chrome100.0.4896.127 65 11
 firefox83.0 2 1
+firefox45.0 1 1
 mozilla 28 28
+chrome51.0.2704.106 1 1
 chrome94.0.4606.61 6 2
 chrome76.0.3809.71 17 1
-chrome83.0.4103.61 26 2
+safari15.0 9 2
+chrome83.0.4103.106 29 12
 chrome100.0.4896.75 2467 748
-chrome83.0.4103.106 14 6
-safari15.0 1 0
-chrome99.0.4844.84 63 3
+chrome83.0.4103.61 26 2
 chrome96.0.4664.45 3 0
-chrome96.0.4664.55 3 0
+chrome99.0.4844.84 63 3
+chrome96.0.4664.55 9 0
 safari15.1 1 1
+Unknown 8 8
 END_BROWSER
 
 # Screen size - Hits
@@ -212,22 +219,24 @@ BEGIN_SCREENSIZE 0
 END_SCREENSIZE
 
 # Unknown referer OS - Last visit date
-BEGIN_UNKNOWNREFERER 2
+BEGIN_UNKNOWNREFERER 3
 Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20220424141228
 Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220424142508
+Go-http-client/1.1 20220428152435
 END_UNKNOWNREFERER
 
 # Unknown referer Browser - Last visit date
-BEGIN_UNKNOWNREFERERBROWSER 0
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20220428152435
 END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 80 113
+From0 102 166
 From1 1 2
 From2 3 3
 From3 0 0
-From4 740 2695
+From4 749 2765
 From5 0 0
 END_ORIGIN
 
@@ -254,156 +263,171 @@ END_KEYWORDS
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 6
 302 35 75
-499 10 0
-500 7 627393
+499 17 0
 400 2 259
+500 7 627393
 404 99 1275112
-301 73 7243
+301 123 13272
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
 BEGIN_SIDER_404 7
-/wp_auto_login_45cd9577f3904d128c285009654d593f.php 1 https://www.google.com/
 /wp_auto_login_dea8d17e3f97e341e810ca546022866f.php 1 https://www.google.com/
-/wp_auto_login_ec301f06c43692c684c02512d7a20447.php 1 https://www.google.com/
+/wp_auto_login_45cd9577f3904d128c285009654d593f.php 1 https://www.google.com/
 /wp_auto_login_e8cb696ccdd5238b6e223c6219c1f064.php 1 https://www.google.com/
-/wp-admin/undefined 1 http://iteration1.healthy-mortal.net/wp-admin/admin.php
+/wp_auto_login_ec301f06c43692c684c02512d7a20447.php 1 https://www.google.com/
 /wp-content/plugins/fitness-calculators/includes/wp-color-picker-script.js 93 https://iteration1.healthy-mortal.net/wp-admin/users.php
+/wp-admin/undefined 1 http://iteration1.healthy-mortal.net/wp-admin/admin.php
 /2022/04/23/hello-world/ 1 http://iteration1.healthy-mortal.net/2022/04/23/hello-world/
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 10 first Hits must be first (order not required for others)
-BEGIN_VISITOR 55
-101.116.9.1 699 2032 49102188 20220426144516
+BEGIN_VISITOR 65
+101.116.9.1 702 2060 50627838 20220428234119
 1.145.213.251 47 415 10351725 20220426073648
+54.227.32.154 10 50 13878640 20220430040140
+18.206.55.48 10 20 181900 20220430040126
 151.106.120.184 10 10 600604 20220424141330
+47.90.47.212 6 41 3548378 20220428141001
 66.133.109.36 5 5 590 20220424141228
-47.90.47.212 4 21 1576024 20220426060429
-18.206.55.48 4 8 72760 20220427013517
-54.227.32.154 4 20 5551456 20220427013527
+101.114.186.221 5 24 2094451 20220427062835
 52.25.138.85 3 3 354 20220424114707
-18.192.99.12 3 3 354 20220423130828
 3.21.43.5 3 3 354 20220423213302
-176.113.43.132 1 2 18188 20220425022953
-168.151.136.176 0 3 17945 
-34.216.192.11 2 2 236 20220424141208
+185.246.188.90 1 1 107 20220428152407
 202.80.73.4 1 21 792479 20220426143342
-176.113.42.163 1 2 18190 20220427030845 20220427030845 /
-69.165.14.204 0 3 14138 
-176.113.43.58 0 1 4119 
+168.151.136.176 0 3 17945 
 3.70.226.171 2 2 236 20220424114717
 47.75.69.96 2 20 1972354 20220426062630
+54.201.106.94 1 1 118 20220423110121
+203.5.76.197 0 8 116919 
+122.150.1.10 0 8 116919 
+205.169.39.76 2 30 886921 20220426055810
+51.81.167.146 1 1 62976 20220424141409
+216.19.204.7 1 4 441268 20220426073948
+133.242.174.119 1 1 14069 20220424161304
+168.151.135.171 0 2 364978 
+161.129.168.158 0 4 359022 
+220.233.196.198 1 9 197373 20220424141131
+144.172.73.66 1 1 107 20220428152419
+220.244.136.70 1 14 490031 20220426144110
+176.113.42.6 0 1 4119 
+133.242.140.127 1 1 14069 20220424161306
+3.133.99.173 1 1 118 20220423130903
+185.220.101.61 1 1 107 20220428152433
+152.39.208.22 0 6 352648 
+185.243.218.27 1 1 107 20220428152435
+205.237.94.9 0 1 7697 
+65.154.226.170 1 17 1549815 20220426055300
+83.137.158.5 1 1 107 20220428152352
+220.244.136.134 1 14 560693 20220423122802
+185.220.103.114 1 1 107 20220428152414
+176.113.43.132 1 2 18188 20220425022953
+34.216.192.11 2 2 236 20220424141208
+176.113.42.163 1 2 18190 20220427030845
+69.165.14.204 0 3 14138 
+176.113.43.58 0 1 4119 
 52.90.30.23 1 1 14061 20220424141503
 205.169.39.233 2 30 886921 20220426055305
 3.85.76.143 1 1 14061 20220424141449
 168.151.96.22 1 7 179473 20220426073945
 168.151.108.250 2 10 1311785 20220426074127
-54.201.106.94 1 1 118 20220423110121
 162.142.125.213 2 2 28138 20220424142508
-203.5.76.197 0 8 116919 
-122.150.1.10 0 8 116919 
+18.192.99.12 3 3 354 20220423130828
 168.151.125.250 0 1 12828 
-205.169.39.76 2 30 886921 20220426055810
-51.81.167.146 1 1 62976 20220424141409
-133.242.174.119 1 1 14069 20220424161304
-216.19.204.7 1 4 441268 20220426073948
-168.151.135.171 0 2 364978 
-220.233.196.198 1 9 197373 20220424141131
-161.129.168.158 0 4 359022 
+178.33.149.171 1 1 63001 20220429025219
 185.244.36.227 1 1 75 20220424224855
-220.244.136.70 1 14 490031 20220426144110
-3.133.99.173 1 1 118 20220423130903
-133.242.140.127 1 1 14069 20220424161306
-176.113.42.6 0 1 4119 
 168.151.126.43 0 2 627935 
 162.142.125.210 2 2 28138 20220424142504
-152.39.208.22 0 6 352648 
+23.154.177.11 1 1 107 20220428152400
+194.32.107.60 1 1 107 20220428152423
 54.93.194.3 1 1 118 20220424141228
 188.165.87.99 1 1 63022 20220425103552
 203.5.76.198 1 19 562114 20220423105911
 205.237.94.250 0 4 1389401 
-205.237.94.9 0 1 7697 
 13.59.153.150 3 3 354 20220424141218
-65.154.226.170 1 17 1549815 20220426055300
 203.219.219.72 1 19 562111 20220423105901
-220.244.136.134 1 14 560693 20220423122802
 152.39.202.6 1 8 222588 20220425090744
 54.246.13.40 1 2 15177 20220424163349
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 5
+BEGIN_DAY 8
 20220423 404 1201 32143548 16
 20220424 125 440 10457107 20
 20220425 3 20 1308700 3
 20220426 283 1122 32000586 14
-20220427 9 30 5642406 3
+20220427 18 68 10548965 6
+20220428 17 70 6310968 12
+20220429 1 1 63001 1
+20220430 4 14 2812108 2
 END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 6
 1h+ 1
 5mn-15mn 5
-15mn-30mn 1
 2mn-5mn 1
-0s-30s 45
+15mn-30mn 1
+0s-30s 64
 30mn-1h 2
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 10 first Pages must be first (order not required for others)
-BEGIN_SIDER 104
+BEGIN_SIDER 106
 /wp-admin/admin-ajax.php 208 817499 0 1
+/ 89 1854702 33 29
 /services/nutrition-of-food/ 79 887041 0 0
-/ 72 1575656 23 21
 /wp-admin/load-scripts.php 35 1208098 0 0
 /wp-admin/load-styles.php 29 3341764 0 0
 /wp-admin/admin.php 29 396230 0 0
 /wp-admin/edit.php 21 467528 0 1
 /wp-admin/plugins.php 16 294097 0 1
 /wp-admin/ 14 289907 5 0
-/wp-json/ 12 140734 0 0
+/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2 13 1016548 1 5
 /wp-json/siteground-optimizer/v1/hardening 1 514 0 0
 /wp-admin/post-new.php 1 65615 0 0
 /wp-json/wp/v2/pages/913 1 432 0 0
 /wp-admin/index.php 3 47954 1 0
-/wp-admin/users.php 1 13857 0 0
-/wp-admin/export.php 1 9472 0 0
 /recipe-badges/ 1 12562 0 0
+/wp-admin/export.php 1 9472 0 0
+/wp-admin/users.php 1 13857 0 0
 /.well-known/acme-challenge/5S5i5kfe8eRaI5K9ZQ4yel7I0WfPb351QDiO0ATtqyw 3 354 3 0
 /wp-json/elementor/v1/globals 6 5178 0 0
-/wp-json/sg-security/v1/fetch-options 1 148 0 0
 //wp-json/wp/v2/pages 4 50648 0 0
+/wp-json/sg-security/v1/fetch-options 1 148 0 0
 /wp-json/wp/v2/tags 1 33 0 0
-/services/ 3 42230 0 0
+/services/ 4 51731 0 0
 /wp-json/wp/v2/template-parts 3 3143 0 0
-/wp-admin/tools.php 1 14313 0 0
 /wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 1 18824 0 0
-/wp-json/wp/v2/block-renderer/core/latest-comments 6 660 0 0
-/wp-json/siteground-optimizer/v1/rate 1 66 0 0
+/wp-admin/tools.php 1 14313 0 0
 /wp-json/wp/v2/recipe 1 6 0 0
+/wp-json/siteground-optimizer/v1/rate 1 66 0 0
+/wp-json/wp/v2/block-renderer/core/latest-comments 6 660 0 0
+/.DS_Store 4 428 4 4
+/.git/config 4 428 4 4
 //wp-json/wp/v2/users 2 972 0 0
 /wp-admin/post.php 11 1148406 0 0
 /wp-json/wp/v2/menus 1 33 0 0
-/services/search/ 4 80487 0 0
-/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2 10 781960 1 4
+/services/search/ 5 95445 0 1
+/wp-json/ 12 140734 0 0
 /wp-json/sg-security/v1/rate 1 76 0 0
 /wp-json/siteground-settings/v1/update-settings 1 102 0 0
 /wp-json/wp/v2/themes 5 7760 0 0
 /wp-json/wp/v2/categories 7 1303 0 0
-/wp-admin/widgets.php 1 67388 0 0
 /.well-known/acme-challenge/u9Q3ZeJihRlyN1U5P_Lm9wndWonUwD3zQ04n2C4MBro 1 118 1 1
-/wp-admin/nav-menus.php 1 24436 0 0
+/wp-admin/widgets.php 1 67388 0 0
 /recipe-dashboard/ 1 20483 0 0
+/wp-admin/nav-menus.php 1 24436 0 0
 /wp-content/plugins/all-in-one-wp-migration/lib/view/assets/font/servmask.woff 3 19692 0 0
 /wp-json/wp/v2/posts 4 132 0 0
 /.well-known/acme-challenge/8a58lKrgYqhelzAHIu6-IQ5FYLMh5tYI3wqIwpCFJWM 2 236 0 1
-/wp-json/wp/v2/sidebars 3 2157 0 0
 /wp-content/themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Roman.ttf.woff2 1 428448 0 0
+/wp-json/wp/v2/sidebars 3 2157 0 0
 /wp-json/wp/v2/block-renderer/core/archives 6 642 0 0
-/wp-content/themes/tafri-travel/assets/webfonts/fa-solid-900.woff2 10 387840 2 2
+/wp-content/themes/tafri-travel/assets/webfonts/fa-solid-900.woff2 11 426624 2 3
 /wp-json/wp/v2/types 4 10913 0 0
 /wp-json/siteground-optimizer/v1/notifications 1 55 0 0
 /wp-json/wp/v2/template-parts/twentytwentytwo/header-small-dark 1 760 0 0
@@ -411,52 +435,52 @@ BEGIN_SIDER 104
 /wp-admin/customize.php 5 862669 0 0
 /wp-login.php 8 16473 4 4
 /wp-json/wp/v2/users 9 1303 0 0
-/.well-known/acme-challenge/gvYR2EEowHR_bIDYNuz5odKV7Gjs1Ns-sf2fUB1DDFo 2 236 2 2
 /recipe-search/ 2 32552 0 0
+/.well-known/acme-challenge/gvYR2EEowHR_bIDYNuz5odKV7Gjs1Ns-sf2fUB1DDFo 2 236 2 2
 /.well-known/acme-challenge/jez66MJk6j9TuQ3cCoPMQcI0zzI1ueAOwsubGZ4LLwk 4 472 4 4
-/.well-known/acme-challenge/FPenrAnQnoa5DACjfoTK2LB4wq-DQ4opf6p0T99rELk 1 118 1 1
 //wp-json/deliciousrecipe/v1/recipe/922 7 1661 0 0
+/.well-known/acme-challenge/FPenrAnQnoa5DACjfoTK2LB4wq-DQ4opf6p0T99rELk 1 118 1 1
 /wp-json/siteground-optimizer/v1/fetch-options/caching 2 736 0 0
-/wp-json/wp/v2/pages 8 23071 0 0
-//wp-json/deliciousrecipe/v1/recipe-global/onboard 3 213 0 0
 /recipe-keys/ 1 12562 0 0
+//wp-json/deliciousrecipe/v1/recipe-global/onboard 3 213 0 0
+/wp-json/wp/v2/pages 8 23071 0 0
 /wp-json/siteground-optimizer/v1/e-book 1 183 0 0
 /wp-json/wp/v2/templates/twentytwentytwo/home 1 1221 0 0
 /wp-json/wp/v2/pages/916 1 439 0 0
 /recipe-cuisines/ 1 12563 0 0
 /wp-admin/site-editor.php 1 102533 0 0
 /wp-admin/theme-editor.php 8 195980 0 0
-/wp-json/wp/v2/navigation 3 1919 0 0
 //wp-json/deliciousrecipe/v1/recipe-global 5 5086 0 0
-/wp-admin/plugin-install.php 4 72833 0 0
+/wp-json/wp/v2/navigation 3 1919 0 0
 /wp-json/wp/v2/templates 10 4410 0 0
+/wp-admin/plugin-install.php 4 72833 0 0
 /wp-json/siteground-optimizer/v1/fetch-options/environment 1 307 0 0
 /wp-json/wp/v2/global-styles/5 1 235 0 0
 /wp-json/sg-security/v1/e-book 1 182 0 0
-/wp-admin/options-permalink.php 2 32483 0 0
 /wp-json/wp/v2/template-parts/twentytwentytwo/footer 1 543 0 0
+/wp-admin/options-permalink.php 2 32483 0 0
 /wp-json/wp/v2/settings 3 1616 0 0
 /.well-known/acme-challenge/gcY1_KbSEf7Yjx6X_MtyHsJ_k_pRuLzsW0BgHxRxiYk 2 236 2 2
-/wp-admin/options-writing.php 1 9454 0 0
 /wp-json/sg-security/v1/notifications 1 68 0 0
+/wp-admin/options-writing.php 1 9454 0 0
 /wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2 8 739552 0 0
 /.well-known/acme-challenge/J7G3Msa6ipR0RvG8cW19HJ45cWhEnv0NaxRDabHcJJU 4 472 4 4
 /wp-admin/update.php 1 13704 0 0
 /wp-json/wp/v2/blocks 7 1883 0 0
-/.well-known/acme-challenge/Hr3nriLqjg5SxnKzJzLZoinXAhaj2M9QKNKgX9H6MyY 2 236 2 2
 /wp-json/wp/v2/widget-types 8 5620 0 0
+/.well-known/acme-challenge/Hr3nriLqjg5SxnKzJzLZoinXAhaj2M9QKNKgX9H6MyY 2 236 2 2
 /our-purpose/ 10 156914 0 1
 /recipe/food/ 6 83595 0 0
-/wp-json/siteground-wizard/v1/update-visibility/ 1 47 0 0
-/.well-known/acme-challenge/WOpk4y-SfzHWaeFCd_ahdhvBcwsE96SJds1VQXuZKQw 3 354 1 3
 /recipe-courses/ 1 12561 0 0
-/wp-json/wp/v2/taxonomies/post_tag 1 782 0 0
+/.well-known/acme-challenge/WOpk4y-SfzHWaeFCd_ahdhvBcwsE96SJds1VQXuZKQw 3 354 1 3
+/wp-json/siteground-wizard/v1/update-visibility/ 1 47 0 0
 /wp-json/wp/v2/taxonomies 11 16548 0 0
+/wp-json/wp/v2/taxonomies/post_tag 1 782 0 0
 /wp-content/themes/tafri-travel/assets/webfonts/fa-regular-400.woff2 4 48880 0 0
-/wp-json/sg-security/v1/hardening 1 362 0 0
-/wp-json/sg-security/v1/activity-unknown 1 722 0 0
 /wp-content/themes/tafri-travel/assets/webfonts/fa-brands-400.woff2 4 217680 0 0
-/wp-json/wp/v2/recipe/922 4 2174 0 0
+/wp-json/sg-security/v1/activity-unknown 1 722 0 0
+/wp-json/sg-security/v1/hardening 1 362 0 0
 /wp-admin/options-general.php 9 160115 0 0
+/wp-json/wp/v2/recipe/922 4 2174 0 0
 /wp-json/siteground-optimizer/v1/fetch-options/frontend 1 1008 0 0
 END_SIDER
