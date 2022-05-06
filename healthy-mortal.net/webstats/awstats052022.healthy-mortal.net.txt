@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20161204)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2001                
-POS_TIME 2683                
-POS_VISITOR 3367                
-POS_DAY 3866                
-POS_DOMAIN 4015                
-POS_LOGIN 4286                
-POS_ROBOT 4441                
-POS_WORMS 4729                
-POS_EMAILSENDER 4860                
-POS_EMAILRECEIVER 5003                
-POS_SESSION 5079                
-POS_SIDER 5225                
-POS_FILETYPES 5501                
-POS_DOWNLOADS 5679                
-POS_OS 5727                
-POS_BROWSER 5851                
-POS_SCREENSIZE 6137                
-POS_UNKNOWNREFERER 6211                
-POS_UNKNOWNREFERERBROWSER 6298                
-POS_ORIGIN 6380                
-POS_SEREFERRALS 6512                
-POS_PAGEREFS 6656                
-POS_SEARCHWORDS 6804                
-POS_KEYWORDS 6956                
-POS_MISC 2347                
-POS_ERRORS 7015                
-POS_CLUSTER 4142                
-POS_SIDER_404 7109                
+POS_TIME 2686                
+POS_VISITOR 10479               
+POS_DAY 13831               
+POS_DOMAIN 3499                
+POS_LOGIN 3912                
+POS_ROBOT 4067                
+POS_WORMS 4752                
+POS_EMAILSENDER 4883                
+POS_EMAILRECEIVER 5026                
+POS_SESSION 14032               
+POS_SIDER 14238               
+POS_FILETYPES 5161                
+POS_DOWNLOADS 5483                
+POS_OS 5614                
+POS_BROWSER 5821                
+POS_SCREENSIZE 6835                
+POS_UNKNOWNREFERER 6909                
+POS_UNKNOWNREFERERBROWSER 6996                
+POS_ORIGIN 7078                
+POS_SEREFERRALS 7218                
+POS_PAGEREFS 7381                
+POS_SEARCHWORDS 7562                
+POS_KEYWORDS 7714                
+POS_MISC 2348                
+POS_ERRORS 7773                
+POS_CLUSTER 3768                
+POS_SIDER_404 7938                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,14 +46,14 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20220501042912 51501 18744774 0
+LastLine 20220505040052 56649 20662198 0
 FirstTime 20220501003417
-LastTime 20220501042912
-LastUpdate 20220501043737 51501 50574 772 91 64
-TotalVisits 8                   
-TotalUnique 8                   
+LastTime 20220505014619
+LastUpdate 20220505043505 56649 56147 326 106 70
+TotalVisits 115                 
+TotalUnique 82                  
 MonthHostsKnown 0                   
-MonthHostsUnknown 8                   
+MonthHostsUnknown 82                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
@@ -63,7 +63,7 @@ JavaEnabled 0 0 0
 JavascriptDisabled 0 0 0
 PDFSupport 0 0 0
 WindowsMediaPlayerSupport 0 0 0
-AddToFavourites 0 4 0
+AddToFavourites 0 104 0
 RealPlayerSupport 0 0 0
 TotalMisc 0 0 0
 DirectorSupport 0 0 0
@@ -72,58 +72,48 @@ END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 2 2 29420 4 4 335
-1 0 0 0 1 1 162
-2 0 0 0 4 6 1013696
-3 8 19 3623490 3 4 189
-4 6 14 1651936 4 7 14898
-5 0 0 0 0 0 0
-6 0 0 0 0 0 0
-7 0 0 0 0 0 0
-8 0 0 0 0 0 0
-9 0 0 0 0 0 0
-10 0 0 0 0 0 0
-11 0 0 0 0 0 0
-12 0 0 0 0 0 0
-13 0 0 0 0 0 0
-14 0 0 0 0 0 0
-15 0 0 0 0 0 0
-16 0 0 0 0 0 0
-17 0 0 0 0 0 0
-18 0 0 0 0 0 0
-19 0 0 0 0 0 0
-20 0 0 0 0 0 0
-21 0 0 0 0 0 0
-22 0 0 0 0 0 0
-23 0 0 0 0 0 0
+0 224 256 2917944 28 68 420629
+1 6 6 71003 13 17 20407
+2 48 133 8970859 31 34 1327698
+3 117 455 38472307 27 68 1065408
+4 31 69 5733709 16 25 120004
+5 155 314 35778732 38 72 253679
+6 270 443 28611355 22 53 1332047
+7 239 432 39393999 25 49 328043
+8 350 493 19113199 37 123 921247
+9 195 267 16177878 13 27 146822
+10 759 814 10718519 44 74 400133
+11 18 18 1584 7 13 316137
+12 33 65 895248 6 7 4788
+13 20 30 2075417 19 24 740128
+14 20 20 1760 8 35 2488738
+15 40 40 17615 7 34 2488685
+16 5 22 840870 11 19 37103
+17 36 36 17381 17 17 55260
+18 2 2 14271 15 17 171220
+19 38 38 3344 9 9 43291
+20 2 2 14271 13 13 117092
+21 1 1 14301 14 15 353821
+22 0 0 0 5 8 55575
+23 234 353 28019534 7 54 932259
 END_TIME
-
-# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
-# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
-# The 10 first Hits must be first (order not required for others)
-BEGIN_VISITOR 8
-101.116.9.1 8 15 1264085 20220501042912 20220501033756 /
-15.204.142.133 2 3 33539 20220501030017
-54.227.32.154 1 5 1388503 20220501040650 20220501040650 /
-47.90.47.212 1 7 2555760 20220501034408 20220501034408 /recipe/spicy-garlic-edamame/
-110.90.9.114 1 2 18829 20220501040637 20220501040637 /
-34.136.217.248 1 1 14710 20220501035831 20220501035831 /
-52.88.8.200 1 1 14710 20220501003417
-52.38.95.125 1 1 14710 20220501003511
-END_VISITOR
-
-# Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 1
-20220501 16 35 5304846 8
-END_DAY
 
 # Domain - Pages - Hits - Bandwidth
 # The 10 first Pages must be first (order not required for others)
-BEGIN_DOMAIN 4
-au 8 15 1264085
-us 6 11 1466172
-cn 1 2 18829
-hk 1 7 2555760
+BEGIN_DOMAIN 13
+au 1996 2830 133466634
+hk 479 873 67903539
+us 212 290 17076809
+cn 68 133 8432764
+sg 39 39 3432
+jp 24 119 10804959
+gb 15 15 1320
+ru 2 2 28464
+cz 2 2 128308
+fr 2 2 14271
+pl 1 1 88
+de 1 1 88
+se 2 2 14424
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -137,11 +127,21 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 10 first Hits must be first (order not required for others)
-BEGIN_ROBOT 4
-wordpress 6 66 20220501042441 0
-Googlebot\-Image/ 1 1013405 20220501020236 0
-Apache\-HttpClient/ 1 14710 20220501040625 0
-Googlebot/ 1 102 20220501020235 1
+BEGIN_ROBOT 14
+wordpress 103 102131 20220505040052 0
+AhrefsBot/ 59 5413577 20220503155416 2
+bingpreview 28 839768 20220503033517 0
+Googlebot/ 19 258020 20220505031339 4
+Dalvik/ 8 94626 20220504055546 0
+bingbot/ 6 58676 20220503102007 1
+custo 4 255970 20220504063145 0
+(firefox/)([0-9]\.|[0-1][0]\.) 3 78578 20220502180734 1
+Googlebot\-Image/ 2 1365555 20220501213850 0
+Apache\-HttpClient/ 2 28893 20220503074419 0
+no_user_agent 1 63508 20220504202203 0
+bot[\s_+:,\.\;\/\\-] 2 14306 20220504013356 1
+MSIE[\x20]6 1 64133 20220502080540 0
+unknown 1 123 20220503165849 1
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -159,58 +159,87 @@ END_EMAILSENDER
 BEGIN_EMAILRECEIVER 0
 END_EMAILRECEIVER
 
-# Session range - Number of visits
-BEGIN_SESSION 1
-0s-30s 3
-END_SESSION
-
-# URL - Pages - Bandwidth - Entry - Exit
-# The 10 first Pages must be first (order not required for others)
-BEGIN_SIDER 5
-/ 11 167818 7 3
-/wp-admin/admin-ajax.php 2 1888 0 0
-/our-purpose/ 1 15846 0 0
-/recipe/spicy-garlic-edamame/ 1 13080 1 0
-/services/recipe-search/ 1 19075 0 0
-END_SIDER
-
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
-BEGIN_FILETYPES 7
-css 1 866 0 0
-php 2 1888 0 0
-html 14 215819 0 0
-jpg 5 1586723 0 0
-png 9 3452538 0 0
-js 3 38616 0 0
-svg 1 8396 0 0
+BEGIN_FILETYPES 13
+css 169 6717680 0 0
+png 313 120250359 0 0
+woff 9 555048 0 0
+woff2 34 2008680 0 0
+php 1191 20331487 0 0
+html 627 9579256 0 0
+docx 1 14947 0 0
+xml 242 23363 0 0
+js 653 17777947 0 0
+jpg 282 59671796 0 0
+Unknown 740 773567 0 0
+svg 42 151364 0 0
+gif 6 19606 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
-BEGIN_DOWNLOADS 0
+BEGIN_DOWNLOADS 1
+/wp-content/plugins/fitness-calculators/docs/Protein_Intake_Formula.docx 1 0 14947
 END_DOWNLOADS
 
 # OS ID - Hits
-BEGIN_OS ID - Hits - Pages 5
-linuxandroid 1 0
-linux 4 3
-win7 1 1
-macosx 7 1
-win10 22 11
+BEGIN_OS ID - Hits - Pages 10
+linuxandroid 131 34
+winxp 7 7
+macosx11 6 6
+ios_iphone 39 5
+linux 94 27
+win7 313 215
+macosx 1350 624
+macosx10 2 2
+win10 2366 1922
+macosx8 1 1
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 11
+BEGIN_BROWSER 43
+firefox57.0 1 1
 chrome95.0.4638.69 2 0
 chrome34.0.1847.137 1 1
-safari15.4 7 1
-firefox25.0 1 1
-chrome83.0.4103.97 1 1
-chrome66.0.3359.181 1 1
-firefox55.0 1 1
-opera80.0.4170.63 1 1
+android 2 2
+chrome88.0.4240.193 113 113
+chrome5.0.375.99 6 6
+safari15.4 180 30
 chrome97.0.4692.99 1 0
-chrome83.0.4103.106 4 1
-chrome100.0.4896.75 15 8
+chrome39.0.2171.95 2 2
+chrome92.0.4515.131 68 4
+chrome100.0.4896.127 387 223
+chrome83.0.4103.97 18 18
+iphone 34 2
+chrome96.0.4664.104 81 17
+chrome97.0.4692.98 28 16
+chrome89.0.4389.114 38 38
+safari15.0 58 7
+chrome100.0.4896.88 154 61
+chrome91.0.4472.114 2 2
+chrome96.0.4664.55 1 0
+chrome66.0.3359.181 6 6
+safari13.0.3 5 3
+chrome101.0.4951.41 106 21
+firefox40.0 1 1
+chrome72.0.3626.119 4 4
+firefox55.0 1 1
+firefox91.0 3 0
+chrome78.0.3904.108 58 58
+chrome100.0.4896.60 151 24
+opera80.0.4170.63 4 2
+chrome80.0.3987.149 60 60
+chrome79.0.3945.88 1 1
+firefox25.0 1 1
+chrome47.0.2526.106 6 6
+chrome94.0.4606.61 2 2
+chrome83.0.4103.106 10 7
+chrome99.0.4844.51 19 2
+chrome100.0.4896.75 2625 2065
+chrome99.0.4844.84 34 2
+chrome96.0.4664.45 2 1
+chrome99.0.4844.74 1 1
+chrome79.0 31 31
+chrome83.0.4103.116 1 1
 END_BROWSER
 
 # Screen size - Hits
@@ -227,21 +256,23 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 9 15
+From0 428 494
 From1 0 0
-From2 0 0
-From3 0 0
-From4 7 20
+From2 1 1
+From3 0 1
+From4 2414 3813
 From5 0 0
 END_ORIGIN
 
 # Search engine referers ID - Pages - Hits
-BEGIN_SEREFERRALS 0
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
 END_SEREFERRALS
 
 # External page referers - Pages - Hits
 # The 10 first Pages must be first (order not required for others)
-BEGIN_PAGEREFS 0
+BEGIN_PAGEREFS 1
+https://www.pinterest.com.au 0 1
 END_PAGEREFS
 
 # Search keyphrases - Number of search
@@ -255,11 +286,304 @@ BEGIN_KEYWORDS 0
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 2
-499 1 0
-301 8 977
+BEGIN_ERRORS 7
+403 8 524424
+302 44 0
+207 14 62193
+206 12 1512657
+499 20 0
+404 226 3202612
+301 208 30526
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 0
+BEGIN_SIDER_404 27
+/wp-content/991176.php 1 http://healthy-mortal.net/wp-content/991176.php
+/backend/.env 1 http://healthy-mortal.net/backend/.env
+/wp-content/plugins/delicious-recipes/assets/lib/parsley/parsley.min.js.map 6 -
+/api/.env 1 http://healthy-mortal.net/api/.env
+/wp-content/plugins/press/wp-class.php 2 http://healthy-mortal.net/wp-content/plugins/press/wp-class.php
+/ups.php 1 http://healthy-mortal.net/ups.php
+/admin.php 1 http://healthy-mortal.net/admin.php
+/humans.txt 1 http://healthy-mortal.net/humans.txt
+/wp-admin/maint/wp-aespa.php 1 http://healthy-mortal.net/wp-admin/maint/wp-aespa.php
+/wp-admin/undefined 1 https://healthy-mortal.net/wp-admin/admin.php
+/media-admin.php/404.php 1 http://healthy-mortal.net/media-admin.php/404.php
+/wp-content/plugins/x/patior/patior/404.php 1 http://healthy-mortal.net/wp-content/plugins/x/patior/patior/404.php
+/wp-admin/%3C!--%20wp:image%20%7B%22id%22:1028,%22width%22:68,%22height%22:98,%22sizeSlug%22:%22large%22,%22linkDestination%22:%22none%22%7D%20--%3E%20%3Cfigure%20class=%22wp-block-image%20size-large%20is-resized%22%3E%3Cimg%20src=%22http:/healthy-mortal.n 2 https://healthy-mortal.net/wp-admin/widgets.php
+/wp-content/themes/sketch/content-sample.php 1 http://healthy-mortal.net/wp-content/themes/sketch/content-sample.php
+/wp-content/plugins/fitness-calculators/includes/wp-color-picker-script.js 180 https://healthy-mortal.net/wp-admin/admin.php
+/.env 3 http://healthy-mortal.net/.env
+/radio.php 1 http://healthy-mortal.net/radio.php
+/autoload_classmap.php 1 http://healthy-mortal.net/autoload_classmap.php
+/wp-content/plugins/delicious-recipes/assets/lib/jquery-rateyo/jquery.rateyo.min.js.map 6 -
+/wp-content/plugins/delicious-recipes/assets/public/js/math.min.map 6 -
+/wp-content/plugins/fitness-calculators/images/FCP-carb-calculator.png 1 https://healthy-mortal.net/wp-admin/admin.php
+/core/.env 1 http://healthy-mortal.net/core/.env
+/wp-content/themes/enron/doc.php 1 http://healthy-mortal.net/wp-content/themes/enron/doc.php
+/inc/gel.php 1 http://healthy-mortal.net/inc/gel.php
+/wp-admin/ffAA531.php 1 http://healthy-mortal.net/wp-admin/ffAA531.php
+/wp-content/plugins/trigonometry/tan.php 1 http://healthy-mortal.net/wp-content/plugins/trigonometry/tan.php
+/ads.txt 2 -
 END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 82
+101.116.9.1 1441 1838 57439760 20220503034144
+47.90.47.212 451 712 44132636 20220503073934
+101.114.186.221 214 312 7940078 20220503030710
+1.145.172.192 113 149 4153117 20220503073829
+20.213.144.135 94 94 8272 20220504095812
+20.92.117.222 60 60 5280 20220505004204
+101.116.113.205 56 62 1380670 20220504083537
+149.167.61.255 40 65 10993717 20220503004624
+104.148.30.74 40 40 3520 20220502143311
+121.237.127.117 35 38 561481 20220504064628
+1.136.17.180 2 34 4941740 20220503062107
+20.212.112.27 16 16 1408 20220503172006
+34.212.20.6 1 1 14183 20220505014619
+104.247.198.26 1 1 88 20220504205709
+34.208.185.241 1 1 14226 20220503003548
+222.94.101.53 13 23 1017310 20220501063606
+47.75.69.96 28 161 23770903 20220503053235
+223.104.150.109 3 5 473763 20220502100335
+52.27.26.23 1 1 14183 20220505013946
+111.7.100.21 1 1 14301 20220501212218
+128.199.204.109 19 19 1672 20220504193657
+185.224.137.84 1 1 88 20220504041837
+34.213.48.157 1 1 0 20220502002953
+34.218.208.207 1 1 14183 20220504002752
+18.237.28.229 1 1 14301 20220502000533
+38.128.66.69 2 2 28484 20220504204529
+116.82.165.241 1 1 0 20220501081029
+51.75.162.196 1 1 14183 20220503150641
+111.7.100.25 1 1 11198 20220501102455
+35.162.57.229 1 1 14183 20220505013908
+128.199.230.96 19 19 1672 20220501173635
+34.134.161.250 2 34 4941753 20220504035537
+220.233.196.198 2 34 5394792 20220503062112
+111.192.63.36 2 34 5394476 20220503030605
+34.142.196.208 9 9 103793 20220504020957
+54.227.32.154 4 17 6481636 20220503132511
+94.23.47.36 1 1 88 20220504180532
+118.126.124.198 2 19 812145 20220501160436
+54.237.250.240 3 3 42549 20220503132455
+107.172.69.101 1 1 14710 20220501060441
+18.237.42.191 1 1 14183 20220505013917
+34.212.27.245 1 1 14183 20220504003046
+52.38.95.125 1 1 14710 20220501003511
+15.204.142.133 2 3 33539 20220501030017
+153.122.174.6 22 117 10804959 20220503033500
+52.25.16.68 1 1 14226 20220503002347
+34.220.140.158 1 1 14183 20220505004149
+34.222.106.169 1 1 14183 20220505004152
+61.147.15.67 4 4 57786 20220504055500
+134.209.23.132 15 15 1320 20220504052556
+18.236.204.19 1 1 14226 20220503002334
+34.136.217.248 1 1 14710 20220501035831
+34.143.199.222 9 9 104439 20220502135600
+34.221.214.194 1 1 14183 20220505002455
+104.144.114.203 1 1 14301 20220501093837
+143.198.18.233 1 1 14183 20220503132901
+34.135.25.172 2 34 4941753 20220504073031
+46.242.145.20 1 1 88 20220504014559
+35.89.127.198 1 1 14183 20220504003640
+34.220.173.18 1 1 14183 20220505004221
+39.103.221.104 1 1 88 20220504103441
+1.136.107.145 4 17 5406131 20220503055456
+175.39.26.227 24 134 22237513 20220502102315
+126.26.29.240 1 1 0 20220503074431
+176.113.43.82 1 1 14301 20220502233351
+58.33.94.134 1 1 14183 20220503181857
+52.12.223.51 1 1 14183 20220505013947
+110.90.9.114 1 2 18829 20220501040637
+176.113.42.164 1 1 14163 20220503071025
+54.202.216.184 1 1 14226 20220503003212
+168.103.87.20 1 1 14183 20220504034055
+93.158.90.70 2 2 14424 20220503165859
+36.150.60.24 2 2 28602 20220502100801
+212.193.30.222 2 2 128308 20220502120308
+54.201.6.253 1 1 14183 20220504002744
+1.136.107.92 21 106 13572164 20220503064636
+35.163.215.26 1 1 14183 20220505004540
+20.37.12.186 19 19 1672 20220501120935
+51.79.241.19 1 1 88 20220504235147
+52.88.8.200 1 1 14710 20220501003417
+111.7.100.27 2 2 28602 20220502171600
+35.87.206.24 1 1 14301 20220502001718
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20220501 1534 1935 65643134 24
+20220502 512 810 59032862 20
+20220503 556 1250 101003888 36
+20220504 211 284 12051626 24
+20220505 30 30 143590 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 3
+30s-2mn 8
+15mn-30mn 4
+2mn-5mn 5
+0s-30s 81
+30mn-1h 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 148
+/wp-admin/admin-ajax.php 854 6371230 2 5
+/ 273 3958678 96 58
+/wp-admin/post.php 88 7335946 0 0
+/wp-admin/admin.php 68 1102777 0 1
+/services/recipe-search/ 62 1097983 1 4
+/wp-json/wp/v2/templates 58 25317 0 0
+/wp-json/ 58 612306 0 0
+/services/search/ 44 1077970 2 5
+/our-purpose/ 34 466658 0 0
+/wp-json/elementor/v1/globals 34 25942 0 0
+//wp-json/deliciousrecipe/v1/recipe/989 4 2990 0 0
+/recipe/chicken-club-lettuce-wrap-sandwich/ 9 138061 0 0
+/wp-admin/post-new.php 2 131206 0 0
+//wp-json/deliciousrecipe/v1/recipe/971 3 2061 0 0
+/wp-json/wp/v2/recipe-key 26 144 0 0
+/wp-json/wp/v2/taxonomies/recipe-badge 26 19272 0 0
+/wp-admin/async-upload.php 11 7609 0 0
+//wp-json/wp/v2/pages 10 254956 0 0
+/services/ 19 245650 0 1
+//news/wp-includes/wlwmanifest.xml 15 1320 0 0
+/wp-json/wp/v2/media/988 2 2018 0 0
+/recipe/skinny-chicken-tikka-masala/ 19 325490 0 2
+/wp-json/wp/v2/block-renderer/core/latest-comments 4 276 0 0
+/wp-json/wp/v2/media/978 2 2062 0 0
+/recipe/roasted-red-kuri-coconut-curry-soup/ 10 171535 0 0
+/wp-json/wp/v2/taxonomies/recipe-cuisine 26 19896 0 0
+//wp-json/deliciousrecipe/v1/recipe/991 5 3939 0 0
+//wp-json/wp/v2/users/ 2 2624 0 0
+/wp-json/wp/v2/recipe/981 7 4612 0 0
+/wp-json/wp/v2/themes 29 44776 0 0
+/wp-json/wp/v2/recipe/991 5 3036 0 0
+/wp-admin/about.php 10 170457 1 0
+/wp-json/wp/v2/posts 2 12 0 0
+//2018/wp-includes/wlwmanifest.xml 5 440 0 0
+//wp-login.php 12 75856 0 2
+//wp-json/deliciousrecipe/v1/recipe/977 4 2961 0 0
+/wp-json/wp/v2/recipe-cooking-method 26 144 0 0
+/wp-json/wp/v2/sidebars 12 7996 0 0
+/wp-content/themes/tafri-travel/assets/webfonts/fa-solid-900.woff2 8 310272 0 1
+/wp-json/wp/v2/block-renderer/core/archives 4 284 0 0
+/wp-admin/load-scripts.php 19 806539 0 0
+//sito/wp-includes/wlwmanifest.xml 15 1320 0 15
+/wp-content/themes/twentynineteen/404.php 1 88 1 1
+/wp-admin/customize.php 13 1262857 1 0
+//website/wp-includes/wlwmanifest.xml 15 1320 0 0
+/wp-json/wp/v2/recipe/971 3 1766 0 0
+/wp-json/wp/v2/users 31 2535 0 0
+/recipe/lamb-kheema-with-peas/ 10 161770 1 0
+/wp-json/wp/v2/pages 29 52809 0 0
+/wp-json/wp/v2/recipe/983 4 2561 0 0
+/wp-json/wp/v2/media/982 2 2012 0 0
+//cms/wp-includes/wlwmanifest.xml 15 1320 0 0
+//wp-includes/wlwmanifest.xml 17 3410 2 0
+//wp-json/deliciousrecipe/v1/recipe-global 18 9140 0 0
+/wp-json/wp/v2/recipe-tag 26 144 0 0
+//wp2/wp-includes/wlwmanifest.xml 15 1320 0 0
+/wp-json/wp/v2/taxonomies/recipe-cooking-method 26 20160 0 0
+/wp-admin/media-upload.php 4 32919 0 0
+/wp-admin/plugin-install.php 8 89585 0 0
+//wp-json/deliciousrecipe/v1/recipe/1052 1 73 0 0
+/small.php 1 88 1 1
+/wp-json/wp/v2/media/992 3 3033 0 0
+/wp-json/sg-security/v1/notifications 1 197 0 0
+/wp-content/languages/plugins/index.php 1 88 1 1
+/wp-json/wp/v2/media 1 1206 0 0
+/wp-json/wp/v2/taxonomies/recipe-tag 26 18840 0 0
+/recipe/spicy-garlic-edamame/ 14 236202 1 1
+//wp/wp-includes/wlwmanifest.xml 15 1320 0 0
+/wp-json/wp/v2/widget-types 11 12276 0 0
+//test/wp-includes/wlwmanifest.xml 15 1320 0 0
+/wp-json/wp/v2/recipe/979 5 3161 0 0
+/wp-info.php 1 88 1 1
+/wp-content/themes/tafri-travel/assets/webfonts/fa-regular-400.woff2 5 61100 0 1
+//xmlrpc.php 15 1320 0 0
+/wp-admin/themes.php 6 123895 0 0
+/wp-admin/options-general.php 3 53403 0 0
+//wordpress/wp-includes/wlwmanifest.xml 15 1320 0 0
+/wp-admin/load-styles.php 10 1035095 0 0
+/wp-json/wp/v2/recipe/987 4 2502 0 0
+//wp1/wp-includes/wlwmanifest.xml 15 1320 0 0
+/wp-admin/tools.php 1 14781 0 0
+/wp-json/wp/v2/media/976 2 1015 0 0
+//wp-json/wp/v2/users 5 2400 0 0
+/wp-json/wp/v2/media/980 3 3117 0 0
+/recipe/honey-garlic-shrimp/ 9 142797 0 0
+/wp-sitemap.xml 1 241 1 0
+/wp-admin/plugins.php 19 506587 0 1
+/wp-json/wp/v2/media/984 2 2078 0 0
+/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2 16 1251136 0 6
+/wp-json/wp/v2/recipe-badge 26 144 0 0
+//wp-json/deliciousrecipe/v1/recipe/981 7 3724 0 0
+/wp-json/sg-security/v1/rate 1 41 0 0
+/wp-json/wp/v2/sidebars/footer-4 2 577 0 0
+/wp-json/wp/v2/pages/389 3 43684 0 0
+//shop/wp-includes/wlwmanifest.xml 13 1144 0 0
+/wp-json/wp/v2/sidebars/footer-1 4 1182 0 0
+/recipe/king-crab-cauliflower-fried-rice/ 8 123103 0 1
+/wp-json/wp/v2/categories 4 502 0 0
+//media/wp-includes/wlwmanifest.xml 5 440 0 0
+/wp-json/wp/v2/media/1028 2 2410 0 0
+/wp-admin/widgets.php 2 112801 0 0
+/wp-json/wp/v2/recipe/1053/autosaves 2 454 0 0
+/wp-admin/nav-menus.php 1 26279 0 0
+//blog/wp-includes/wlwmanifest.xml 15 1320 0 0
+/wp-json/wp/v2/types 2 3962 0 0
+//site/wp-includes/wlwmanifest.xml 15 1320 0 0
+/wp-json/wp/v2/taxonomies/recipe-key 26 19224 0 0
+/recipe/chicken-and-asparagus-lemon-stir-fry/ 10 150015 0 0
+/wp-json/wp/v2/media/990 2 2088 0 0
+/wp-admin/upload.php 6 164642 0 0
+/wp-json/wp/v2/recipe/977 4 2536 0 0
+//wp-json/deliciousrecipe/v1/recipe/979 5 4541 0 0
+/wp-admin/options-reading.php 1 16109 0 0
+//2019/wp-includes/wlwmanifest.xml 13 1144 0 0
+//web/wp-includes/wlwmanifest.xml 15 1320 0 0
+/wp-admin/patior/index.php 1 88 1 1
+/wp-json/batch/v1 2 578 0 0
+/icon/ 1 13457 0 0
+//wp-json/deliciousrecipe/v1/recipe/1053 11 5742 0 0
+/recipe/cauliflower-rice-chicken-biryani/ 11 167619 0 0
+//wp-json/deliciousrecipe/v1/recipe/985 4 3193 0 0
+/wp-blog.php 1 88 1 1
+/wp-json/wp/v2/widgets 13 33591 0 0
+/wp-json/wp/v2/recipe-cuisine 26 1608 0 0
+/wp-json/wp/v2/recipe/989 4 2601 0 0
+/wp-json/sg-security/v1/e-book 1 142 0 0
+/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.woff 9 555048 0 4
+/wp-json/wp/v2/sidebars/footer-2 4 1154 0 0
+/wp-json/wp/v2/media/986 2 2076 0 0
+/wp-admin/options-writing.php 1 15751 0 0
+/wp-admin/options-media.php 1 15215 0 0
+/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2 3 277332 0 0
+/wp-json/wp/v2/recipe/1052 1 497 0 0
+//wp-json/deliciousrecipe/v1/recipe/983 4 2807 0 0
+//2020/wp-includes/wlwmanifest.xml 8 704 0 0
+/wp-json/wp/v2/blocks 29 174 0 0
+/services/nutrition-of-food/ 23 331927 0 0
+/wp-json/wp/v2/taxonomies/post_tag 1 772 0 0
+/wp-json/wp/v2/taxonomies 33 52932 0 0
+/wp-json/wp/v2/recipe/985 4 2551 0 0
+/wp-admin/edit.php 30 858100 1 1
+/wp-json/sg-security/v1/hardening 1 293 0 0
+/wp-json/sg-security/v1/activity-unknown 1 2525 0 0
+/wp-content/themes/tafri-travel/assets/webfonts/fa-brands-400.woff2 2 108840 0 0
+/recipe/strawberries-romanoff/ 11 155411 0 0
+/wp-json/wp/v2/recipe/1053 8 4808 0 0
+//wp-json/deliciousrecipe/v1/recipe/987 4 2664 0 0
+/wp-json/wp/v2/media/1054 5 4071 0 0
+END_SIDER

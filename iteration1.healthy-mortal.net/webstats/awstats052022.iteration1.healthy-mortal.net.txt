@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20161204)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2012                
-POS_TIME 2688                
-POS_VISITOR 3352                
-POS_DAY 3538                
-POS_DOMAIN 3686                
-POS_LOGIN 3913                
-POS_ROBOT 4068                
-POS_WORMS 4277                
-POS_EMAILSENDER 4408                
-POS_EMAILRECEIVER 4551                
-POS_SESSION 4627                
-POS_SIDER 4764                
-POS_FILETYPES 4897                
-POS_DOWNLOADS 5012                
-POS_OS 5060                
-POS_BROWSER 5147                
-POS_SCREENSIZE 5328                
-POS_UNKNOWNREFERER 5402                
-POS_UNKNOWNREFERERBROWSER 5489                
-POS_ORIGIN 5571                
-POS_SEREFERRALS 5702                
-POS_PAGEREFS 5846                
-POS_SEARCHWORDS 5994                
-POS_KEYWORDS 6146                
+POS_TIME 2689                
+POS_VISITOR 6400                
+POS_DAY 6639                
+POS_DOMAIN 3277                
+POS_LOGIN 3538                
+POS_ROBOT 3693                
+POS_WORMS 3938                
+POS_EMAILSENDER 4069                
+POS_EMAILRECEIVER 4212                
+POS_SESSION 6793                
+POS_SIDER 6950                
+POS_FILETYPES 4347                
+POS_DOWNLOADS 4570                
+POS_OS 4618                
+POS_BROWSER 4721                
+POS_SCREENSIZE 4969                
+POS_UNKNOWNREFERER 5043                
+POS_UNKNOWNREFERERBROWSER 5130                
+POS_ORIGIN 5212                
+POS_SEREFERRALS 5347                
+POS_PAGEREFS 5491                
+POS_SEARCHWORDS 5639                
+POS_KEYWORDS 5791                
 POS_MISC 2352                
-POS_ERRORS 6205                
-POS_CLUSTER 3769                
-POS_SIDER_404 6291                
+POS_ERRORS 5850                
+POS_CLUSTER 3394                
+POS_SIDER_404 5966                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,14 +46,14 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20220501040130 3425 1346072 0
+LastLine 20220505010559 3716 1443348 0
 FirstTime 20220501040112
-LastTime 20220501040130
-LastUpdate 20220501043736 3425 3376 39 0 10
-TotalVisits 2                   
-TotalUnique 2                   
+LastTime 20220504131415
+LastUpdate 20220505043504 3716 3656 50 0 10
+TotalVisits 11                  
+TotalUnique 4                   
 MonthHostsKnown 0                   
-MonthHostsUnknown 2                   
+MonthHostsUnknown 4                   
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
@@ -63,7 +63,7 @@ JavaEnabled 0 0 0
 JavascriptDisabled 0 0 0
 PDFSupport 0 0 0
 WindowsMediaPlayerSupport 0 0 0
-AddToFavourites 0 6 0
+AddToFavourites 0 26 0
 RealPlayerSupport 0 0 0
 TotalMisc 0 0 0
 DirectorSupport 0 0 0
@@ -73,48 +73,37 @@ END_MISC
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
 0 0 0 0 0 0 0
-1 0 0 0 1 1 162
+1 0 0 0 5 5 810
 2 0 0 0 0 0 0
 3 0 0 0 0 0 0
 4 4 14 2812108 9 15 14457
-5 0 0 0 0 0 0
-6 0 0 0 0 0 0
-7 0 0 0 0 0 0
-8 0 0 0 0 0 0
-9 0 0 0 0 0 0
-10 0 0 0 0 0 0
-11 0 0 0 0 0 0
-12 0 0 0 0 0 0
-13 0 0 0 0 0 0
+5 0 0 0 4 4 648
+6 0 0 0 8 8 85310
+7 0 0 0 2 2 16
+8 4 14 2812108 13 19 36573
+9 4 14 2812108 13 19 15105
+10 13 124 3023765 12 15 26789
+11 0 0 0 3 3 74080
+12 2 2 126044 6 6 11398
+13 4 14 2812108 14 20 15267
 14 0 0 0 0 0 0
 15 0 0 0 0 0 0
-16 0 0 0 0 0 0
-17 0 0 0 0 0 0
-18 0 0 0 0 0 0
-19 0 0 0 0 0 0
+16 0 0 0 3 3 63195
+17 0 0 0 3 3 486
+18 0 0 0 6 6 11241
+19 0 0 0 3 3 74080
 20 0 0 0 0 0 0
-21 0 0 0 0 0 0
-22 0 0 0 0 0 0
+21 0 0 0 7 7 126552
+22 0 0 0 1 1 63022
 23 0 0 0 0 0 0
 END_TIME
 
-# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
-# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
-# The 10 first Hits must be first (order not required for others)
-BEGIN_VISITOR 2
-54.227.32.154 2 10 2775728 20220501040130 20220501040129 /
-18.206.55.48 2 4 36380 20220501040113 20220501040112 /
-END_VISITOR
-
-# Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 1
-20220501 4 14 2812108 2
-END_DAY
-
 # Domain - Pages - Hits - Bandwidth
 # The 10 first Pages must be first (order not required for others)
-BEGIN_DOMAIN 1
-us 4 14 2812108
+BEGIN_DOMAIN 3
+us 18 60 11284812
+au 11 120 2987385
+cz 2 2 126044
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -128,9 +117,10 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 10 first Hits must be first (order not required for others)
-BEGIN_ROBOT 2
-wordpress 2 22 20220501040109 0
-Apache\-HttpClient/ 1 14071 20220501040110 0
+BEGIN_ROBOT 3
+wordpress 24 88640 20220504214149 0
+custo 7 441154 20220504222036 0
+Apache\-HttpClient/ 5 70355 20220504131359 0
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -148,21 +138,17 @@ END_EMAILSENDER
 BEGIN_EMAILRECEIVER 0
 END_EMAILRECEIVER
 
-# Session range - Number of visits
-BEGIN_SESSION 0
-END_SESSION
-
-# URL - Pages - Bandwidth - Entry - Exit
-# The 10 first Pages must be first (order not required for others)
-BEGIN_SIDER 1
-/ 4 56284 2 0
-END_SIDER
-
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
-BEGIN_FILETYPES 3
-png 6 24714 0 0
-html 4 56284 0 0
-jpg 4 2731110 0 0
+BEGIN_FILETYPES 9
+css 26 142372 0 0
+png 29 256603 0 0
+woff2 3 209424 0 0
+php 5 138305 0 0
+html 23 426893 0 0
+jpg 19 12630212 0 0
+js 72 574340 0 0
+svg 4 4854 0 0
+gif 1 15238 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -170,19 +156,23 @@ BEGIN_DOWNLOADS 0
 END_DOWNLOADS
 
 # OS ID - Hits
-BEGIN_OS ID - Hits - Pages 2
-macosx 2 0
-win10 12 4
+BEGIN_OS ID - Hits - Pages 3
+macosx 13 1
+macosx10 2 2
+win10 167 28
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 6
-chrome95.0.4638.69 2 0
-firefox91.0 1 1
-opera80.0.4170.63 1 0
-chrome83.0.4103.106 6 2
-chrome96.0.4664.45 2 1
-chrome96.0.4664.55 2 0
+BEGIN_BROWSER 9
+chrome95.0.4638.69 6 1
+chrome100.0.4896.75 120 11
+safari15.0 6 1
+chrome83.0.4103.106 24 11
+firefox91.0 5 3
+chrome96.0.4664.45 7 1
+chrome39.0.2171.95 2 2
+chrome96.0.4664.55 7 0
+opera80.0.4170.63 5 1
 END_BROWSER
 
 # Screen size - Hits
@@ -199,11 +189,11 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 4 14
+From0 21 63
 From1 0 0
 From2 0 0
 From3 0 0
-From4 0 0
+From4 10 119
 From5 0 0
 END_ORIGIN
 
@@ -227,10 +217,52 @@ BEGIN_KEYWORDS 0
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 1
-301 7 496
+BEGIN_ERRORS 4
+302 1 0
+499 8 0
+404 1 12028
+301 67 6722
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 0
+BEGIN_SIDER_404 1
+/wp-content/plugins/fitness-calculators/includes/wp-color-picker-script.js 1 https://iteration1.healthy-mortal.net/wp-admin/
 END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+101.116.9.1 11 120 2987385 20220502105055
+18.206.55.48 10 20 181900 20220504131403
+54.227.32.154 8 40 11102912 20220504131415
+212.193.30.222 2 2 126044 20220502120308
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20220501 4 14 2812108 2
+20220502 17 136 5925537 4
+20220503 6 18 2848488 3
+20220504 4 14 2812108 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 10
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 21 394939 10 10
+/wp-admin/admin-ajax.php 2 455 0 0
+/wp-admin/load-scripts.php 2 44719 0 0
+/wp-admin/ 1 17976 1 0
+/wp-admin/load-styles.php 1 93131 0 0
+/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2 1 92444 0 0
+/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2 1 78196 0 0
+/services/ 1 13978 0 0
+/wp-content/themes/tafri-travel/assets/webfonts/fa-solid-900.woff2 1 38784 0 1
+END_SIDER
