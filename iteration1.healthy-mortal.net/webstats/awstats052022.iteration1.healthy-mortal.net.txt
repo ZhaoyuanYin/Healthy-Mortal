@@ -9,32 +9,32 @@ AWSTATS DATA FILE 7.7 (build 20161204)
 BEGIN_MAP 28
 POS_GENERAL 2012                
 POS_TIME 2689                
-POS_VISITOR 7772                
-POS_DAY 8090                
-POS_DOMAIN 3332                
-POS_LOGIN 3594                
-POS_ROBOT 3749                
-POS_WORMS 4035                
-POS_EMAILSENDER 4166                
-POS_EMAILRECEIVER 4309                
-POS_SESSION 8313                
-POS_SIDER 8470                
-POS_FILETYPES 4444                
-POS_DOWNLOADS 4714                
-POS_OS 5845                
-POS_BROWSER 5972                
-POS_SCREENSIZE 6238                
-POS_UNKNOWNREFERER 6312                
-POS_UNKNOWNREFERERBROWSER 6485                
-POS_ORIGIN 6567                
-POS_SEREFERRALS 6703                
-POS_PAGEREFS 6847                
-POS_SEARCHWORDS 6995                
-POS_KEYWORDS 7147                
+POS_VISITOR 7818                
+POS_DAY 8179                
+POS_DOMAIN 3353                
+POS_LOGIN 3615                
+POS_ROBOT 3770                
+POS_WORMS 4057                
+POS_EMAILSENDER 4188                
+POS_EMAILRECEIVER 4331                
+POS_SESSION 8426                
+POS_SIDER 8583                
+POS_FILETYPES 4466                
+POS_DOWNLOADS 4736                
+POS_OS 5867                
+POS_BROWSER 5994                
+POS_SCREENSIZE 6284                
+POS_UNKNOWNREFERER 6358                
+POS_UNKNOWNREFERERBROWSER 6531                
+POS_ORIGIN 6613                
+POS_SEREFERRALS 6749                
+POS_PAGEREFS 6893                
+POS_SEARCHWORDS 7041                
+POS_KEYWORDS 7193                
 POS_MISC 2352                
-POS_ERRORS 7206                
-POS_CLUSTER 3450                
-POS_SIDER_404 7338                
+POS_ERRORS 7252                
+POS_CLUSTER 3471                
+POS_SIDER_404 7384                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,14 +46,14 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20220512010450 3939 1514717 0
+LastLine 20220516011309 4011 1540849 0
 FirstTime 20220501040112
-LastTime 20220508041307
-LastUpdate 20220512044026 3939 3912 17 0 10
-TotalVisits 18                  
-TotalUnique 6                   
+LastTime 20220515144649
+LastUpdate 20220516044256 4011 3969 32 0 10
+TotalVisits 19                  
+TotalUnique 7                   
 MonthHostsKnown 0                   
-MonthHostsUnknown 6                   
+MonthHostsUnknown 7                   
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
@@ -72,36 +72,36 @@ END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 0 0 0 0 0 0
-1 0 0 0 12 12 1944
-2 0 0 0 0 0 0
+0 0 0 0 3 3 11063
+1 0 0 0 16 16 2592
+2 0 0 0 2 2 16
 3 0 0 0 1 1 162
-4 10 40 2814396 36 67 489390
-5 0 0 0 12 12 1944
+4 10 40 2814396 37 68 489552
+5 0 0 0 16 16 2592
 6 0 0 0 8 8 85310
 7 0 0 0 5 5 11079
 8 4 14 2812108 15 21 99606
-9 4 14 2812108 22 29 84072
-10 13 124 3023765 12 15 26789
-11 0 0 0 3 3 74080
-12 2 2 126044 6 6 11398
-13 8 28 5624216 30 42 41894
-14 0 0 0 5 5 11079
-15 0 0 0 3 3 63195
+9 4 14 2812108 26 33 84720
+10 13 124 3023765 16 19 101031
+11 0 0 0 4 4 74242
+12 2 2 126044 9 9 85478
+13 8 28 5624216 34 46 42542
+14 2 19 1968235 7 8 11403
+15 0 0 0 8 8 137291
 16 0 0 0 3 3 63195
-17 0 0 0 10 10 1620
+17 0 0 0 14 14 2268
 18 0 0 0 6 6 11241
-19 2 2 28142 9 9 85321
+19 2 2 28142 12 12 159401
 20 0 0 0 10 10 22455
-21 2 4 36380 23 25 153159
+21 2 4 36380 27 29 153807
 22 2 10 2775728 1 5 63042
-23 2 2 126044 7 7 367
+23 2 2 126044 11 11 63567
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 10 first Pages must be first (order not required for others)
 BEGIN_DOMAIN 3
-us 36 118 17065502
+us 38 137 19033737
 au 11 120 2987385
 cz 2 2 126044
 END_DOMAIN
@@ -118,8 +118,8 @@ END_LOGIN
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 10 first Hits must be first (order not required for others)
 BEGIN_ROBOT 4
-wordpress 43 188272 20220511230230 0
-custo 12 756272 20220511041939 0
+wordpress 51 243595 20220515101222 0
+custo 17 1071382 20220515101223 0
 Apache\-HttpClient/ 7 98497 20220506213543 0
 no_user_agent 2 56937 20220508093906 0
 END_ROBOT
@@ -141,15 +141,15 @@ END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 12
-css 27 142460 0 0
+css 28 217256 0 0
 png 41 306031 0 0
 md 1 88 0 0
-woff2 3 209424 0 0
 txt 19 1672 0 0
+woff2 4 287620 0 0
 php 7 138481 0 0
-html 36 693735 0 0
-js 72 574340 0 0
-jpg 27 18092432 0 0
+html 37 704780 0 0
+js 85 672766 0 0
+jpg 30 19798204 0 0
 Unknown 2 176 0 0
 gif 1 15238 0 0
 svg 4 4854 0 0
@@ -182,15 +182,16 @@ END_DOWNLOADS
 BEGIN_OS ID - Hits - Pages 5
 macosx 18 2
 macosx10 30 10
-win10 186 34
 Unknown 2 2
+win10 205 36
 linux 4 1
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 10
+BEGIN_BROWSER 11
 chrome95.0.4638.69 12 2
 mozilla 2 2
+chrome76.0.3809.71 19 2
 chrome83.0.4103.106 35 17
 safari15.0 7 1
 chrome100.0.4896.75 120 11
@@ -216,11 +217,11 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 39 121
+From0 40 123
 From1 0 0
 From2 0 0
 From3 0 0
-From4 10 119
+From4 11 136
 From5 0 0
 END_ORIGIN
 
@@ -246,10 +247,10 @@ END_KEYWORDS
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 5
 302 1 0
-499 17 0
+499 23 0
 400 3 268440
 404 1 12028
-301 180 21706
+301 214 26586
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
@@ -260,17 +261,18 @@ END_SIDER_404
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 10 first Hits must be first (order not required for others)
-BEGIN_VISITOR 6
+BEGIN_VISITOR 7
 18.206.55.48 14 28 254660 20220506213546
 54.227.32.154 12 60 16654368 20220506220657
 101.116.9.1 11 120 2987385 20220502105055
 2.56.59.115 8 28 128332 20220508041307
 212.193.30.222 2 2 126044 20220502120308
+65.154.226.168 2 19 1968235 20220515144649
 167.94.138.62 2 2 28142 20220505191742
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 7
+BEGIN_DAY 8
 20220501 4 14 2812108 2
 20220502 17 136 5925537 4
 20220503 6 18 2848488 3
@@ -278,28 +280,29 @@ BEGIN_DAY 7
 20220505 8 18 2966294 4
 20220506 4 14 2812108 2
 20220508 6 26 2288 1
+20220515 2 19 1968235 1
 END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 2
 30s-2mn 1
-0s-30s 17
+0s-30s 18
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 10 first Pages must be first (order not required for others)
 BEGIN_SIDER 13
-/ 34 661781 17 16
+/ 35 672826 18 16
 /wp-admin/admin-ajax.php 3 543 0 0
 /wp-admin/load-scripts.php 2 44719 0 0
+/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2 2 156392 0 1
 /wp-content/plugins/wp-automatic/changelog 1 88 0 0
 /wp-admin/ 1 17976 1 0
 /wp-admin/load-styles.php 1 93131 0 0
 /wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2 1 92444 0 0
 /wp-content/plugins/wp-pinterest-automatic/changelog 1 88 0 0
-/services/ 1 13978 0 0
 /wp-content/plugins/tatsu/changelog.md 1 88 0 1
-/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2 1 78196 0 0
+/services/ 1 13978 0 0
 /wp-content/plugins/cherry-plugin/admin/import-export/download-content.php 1 88 0 0
 /wp-content/themes/tafri-travel/assets/webfonts/fa-solid-900.woff2 1 38784 0 1
 END_SIDER
