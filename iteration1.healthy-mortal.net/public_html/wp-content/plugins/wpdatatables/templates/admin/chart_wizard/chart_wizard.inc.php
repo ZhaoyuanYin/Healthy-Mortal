@@ -31,7 +31,7 @@
                     <img id="wpdt-inline-logo"
                          src="<?php echo WDT_ROOT_URL; ?>assets/img/logo.svg"/>
                     <h2>
-                        <span style="display: none"><?php _e('Create a Chart', 'wpdatatables'); ?></span>
+                        <span style="display: none"><?php esc_html_e('Create a Chart', 'wpdatatables'); ?></span>
                         <?php esc_html_e('Create a Chart', 'wpdatatables'); ?>
                     </h2>
                     <ul class="actions p-t-5">

@@ -15,6 +15,7 @@ const { compose } = wp.compose;
 const { TextControl, Button } = wp.components;
 
 const labels = delrcp.nutritionFactsLabel;
+
 class Nutrition extends Component {
 	constructor(props) {
 		super(props);

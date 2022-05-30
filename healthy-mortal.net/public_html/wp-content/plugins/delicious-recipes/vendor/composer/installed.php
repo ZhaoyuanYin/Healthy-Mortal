@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'a533f3d88d5a7607a7c1aef664564b6e5a891f70',
+    'reference' => 'bb3f172eb7415ddb4253847251f4236d2c15f44a',
     'name' => 'xqluz/delicious-recipes',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'a533f3d88d5a7607a7c1aef664564b6e5a891f70',
+      'reference' => 'bb3f172eb7415ddb4253847251f4236d2c15f44a',
     ),
   ),
 );

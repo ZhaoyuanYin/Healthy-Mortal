@@ -543,8 +543,13 @@ class WDTConfigController {
                 $column->possibleValuesType = sanitize_text_field($column->possibleValuesType);
                 $column->skip_thousands_separator = (int)$column->skip_thousands_separator;
                 $column->sorting = (int)$column->sorting;
-                $column->text_after = sanitize_text_field($column->text_after);
-                $column->text_before = sanitize_text_field($column->text_before);
+                if ( ! current_user_can( 'unfiltered_html' ) ) {
+                    $column->text_after = sanitize_text_field(wp_kses_post($column->text_after));
+                    $column->text_before = sanitize_text_field(wp_kses_post($column->text_before));
+                } else {
+                    $column->text_after = wp_kses_post($column->text_after);
+                    $column->text_before = wp_kses_post($column->text_before);
+                }
                 $column->css_class = sanitize_text_field($column->css_class);
                 $column->type = sanitize_text_field($column->type);
                 $column->visible = (int)$column->visible;

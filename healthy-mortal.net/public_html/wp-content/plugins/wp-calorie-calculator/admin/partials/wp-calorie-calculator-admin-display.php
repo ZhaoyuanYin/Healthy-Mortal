@@ -17,7 +17,7 @@ $title_show         = get_option( 'wpcc-title-show', ! $title_hide );
 $title_text         = get_option( 'wpcc-title-text', __( 'CALCULATE YOUR OPTIMAL CALORIES', 'wp-calorie-calculator' ) );
 $metric_system      = get_option( 'wpcc-metric-system', '' );
 $instant_result     = get_option( 'wpcc-instant-result', '' );
-$notification_email = ! empty( get_option( 'wpcc-notification-email', $admin_email ) ) ? get_option( 'wpcc-notification-email', $admin_email ) : get_option( 'admin_email' );
+$notification_email = ! empty( get_option( 'wpcc-notification-email' ) ) ? get_option( 'wpcc-notification-email' ) : get_option( 'admin_email' );
 
 $primary_color   = get_option( 'wpcc-primary-color', '#325878' );
 $secondary_color = get_option( 'wpcc-secondary-color', '#4989BE' );

@@ -1140,3 +1140,20 @@ box-shadow: 0 1px 3px rgb(25 143 217 / 30%), inset 0 -1px 0 rgb(0 0 0 / 5%);
 .buy_premium a{font-size:14px;}
 
 .copy_to_clipboard{cursor: pointer;}
+
+.wpgmp_key_btn{
+    background-color: #17b3e4;
+    font-size: 14px;
+    padding: 12px 12px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 3px;
+}
+
+.wpgmp_key_btn: hover, .wpgmp_key_btn: active{
+    background: #f1c40f;
+}
+
+.wpgmp_key_btn:focus,.wpgmp_key_btn:active{
+    color: #ffffff!important;
+}

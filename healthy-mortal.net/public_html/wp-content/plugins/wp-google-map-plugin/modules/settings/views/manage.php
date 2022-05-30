@@ -17,12 +17,13 @@ $form->add_element( 'group', 'wpgmp_general_settings', array(
 ));
 
 $referrer = '*.'.$_SERVER['HTTP_HOST'].'/*';
+$referrer_two = '*'.$_SERVER['HTTP_HOST'].'/*';
 
 $form->add_element(
 	'message',
 	'wpgmp_api_key_instructions',
 	array(
-		'value' => esc_html__('The very first step to get started with Google Maps is to create the right API key for your website. While creating the Google Maps API keys from the Google Cloud Platform, in the key restriction section, you need to choose HTTP referrer and then you will need to enter HTTP referrer according to your website domain name.', 'wp-google-map-plugin') . '<br><br>' . esc_html__('You need to enter this HTTP referrer during the key creation process :   ', 'wp-google-map-plugin') . ' &nbsp;&nbsp;&nbsp;&nbsp;<b><span class="wpgmp_referrer">'.$referrer. '</span></b>&nbsp;&nbsp;&nbsp;&nbsp; <input type="hidden" id="wpgmp_referrer" value="'.$referrer.'"> <span class="tooltip"><span class="copy_to_clipboard"><img src="'. WPGMP_IMAGES. '/copy-to-clipboard.png">  <span class="tooltiptext" id="myTooltip">'.esc_html__('Copy HTTP Referrer To Clipboard','wp-google-map-plugin').'</span></span></span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.wpmapspro.com/docs/how-to-create-an-api-key/" target="_blank">View Tutorial</a>',
+		'value' => esc_html__('The very first step to get started with Google Maps is to create the right API key for your website. While creating the Google Maps API keys from the Google Cloud Platform, in the key restriction section, you need to choose HTTP referrer and then you will need to enter HTTP referrer according to your website domain name.', 'wp-google-map-plugin') . '<br><br>' . esc_html__('You will need to enter any one of the below HTTP referrer during the key creation process :   ', 'wp-google-map-plugin') . '<br><br><b><span class="wpgmp_referrer">'.$referrer. '</span></b>&nbsp;&nbsp;&nbsp;&nbsp; <input type="hidden" id="wpgmp_referrer_with_dot" value="'.$referrer.'" class="referrer_to_create"> <span class="tooltip"><span class="copy_to_clipboard"><img src="'. WPGMP_IMAGES. '/copy-to-clipboard.png">  <span class="tooltiptext" id="with_dot_tooltip">'.esc_html__('Copy HTTP Referrer To Clipboard','wp-google-map-plugin').'</span></span></span>&nbsp;&nbsp;&nbsp;&nbsp;'.esc_html__('( Works for most websites )','wp-google-map-plugin').'<br><br><b><span class="wpgmp_referrer">'.$referrer_two. ' </span></b>&nbsp;&nbsp;&nbsp;&nbsp; <input type="hidden" class="referrer_to_create" id="wpgmp_referrer_without_dot" value="'.$referrer_two.'"> <span class="tooltip"><span class="copy_to_clipboard"><img src="'. WPGMP_IMAGES. '/copy-to-clipboard.png">  <span class="tooltiptext" id="without_dot_tooltip">'.esc_html__('Copy HTTP Referrer To Clipboard','wp-google-map-plugin').'</span></span></span>&nbsp;&nbsp;&nbsp;&nbsp;'.esc_html__('( Try this if above doesn\'t work )','wp-google-map-plugin').'<br><br><a href="https://www.wpmapspro.com/docs/how-to-create-an-api-key/" target="_blank">'.esc_html__('View Tutorial','wp-google-map-plugin').'</a>',
 		'class' => 'fc-msg fc-msg-info wpgmp_api_key_instructions',
 		'show'  => 'true',
 		'before' => '<div class="fc-12">',
@@ -30,7 +31,7 @@ $form->add_element(
 	)
 );
 
-$link = '<a target="_blank" href="https://console.cloud.google.com/google/maps-apis/start?3pp=true&utm_source=wp_plugin_flipper">'.esc_html__("Create Google Maps Api Key","wp-google-map-plugin").'</a>';
+$link = '<a href="javascript:void(0);" class="wpgmp_map_key_missing" >'.esc_html__("Create Google Maps API Key","wp-google-map-plugin").'</a>';
 
 
 $form->set_col( 2 );
@@ -43,11 +44,9 @@ $form->add_element('text','wpgmp_api_key',array(
 	'desc'  => sprintf( esc_html__( 'Enter the created Google Maps API Key here. %1$s', 'wp-google-map-plugin' ), $link ),
 ));
 
-$key_url = 'https://console.cloud.google.com/google/maps-apis/start?3pp=true&utm_source=wp_plugin_flipper';
-
 if ( get_option( 'wpgmp_api_key' ) == '' ) {
 
-	$generate_link = '<a onclick=\'window.open("' . wp_slash( $key_url ) . '", "newwindow", "width=700, height=600"); return false;\' href=\'' . $key_url . '\' class="wpgmp_key_btn fc-btn fc-btn-default btn-lg" >' . esc_html__( 'Generate API Key', 'wpgmp-google-map' ) . '</a>';
+	$generate_link = '<a href="javascript:void(0);" class="wpgmp_map_key_missing wpgmp_key_btn fc-btn fc-btn-default btn-lg" >' . esc_html__( 'Generate API Key', 'wpgmp-google-map' ) . '</a>';
 
 	$form->add_element(
 		'html', 'wpgmp_key_btn', array(

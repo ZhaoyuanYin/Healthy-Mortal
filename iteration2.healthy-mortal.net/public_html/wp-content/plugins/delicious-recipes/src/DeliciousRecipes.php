@@ -20,7 +20,7 @@ final class DeliciousRecipes {
 	 *
 	 * @var string
 	 */
-	public $version = '1.3.7';
+	public $version = '1.3.9';
 
 	/**
 	 * The single instance of the class.

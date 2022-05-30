@@ -7,7 +7,7 @@ Author URI:        http://profiles.wordpress.org/flippercode/
 Author:            flippercode
 Donate link:       (a link for donating)
 Requires at least: 3.4
-Tested up to: 5.9.3
+Tested up to: 6.0.0
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -165,6 +165,9 @@ This section describes how to install the plugin and get it working.
 21. Map frontend output demo five. Snazzy map style applied from back-end.
 
 == Changelog ==
+
+= 4.3.0 =
+* New : Link for API key generation process through wizard updated.
 
 = 4.2.9 =
 * New : Google Maps API key link updated on add map and add location page.

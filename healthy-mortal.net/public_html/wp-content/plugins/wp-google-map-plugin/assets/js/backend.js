@@ -174,6 +174,22 @@ jQuery(document).ready(function($) {
         }
     });
 
+    $(".wpgmp_map_key_missing").click(function(e) {
+
+        e.preventDefault();
+
+        var winWidth=570;
+        var winHeight=700;
+        var left = (screen.width-winWidth)/2;
+        var top = (screen.height-winHeight)/2;
+     
+        window.open('https://console.cloud.google.com/google/maps-hosted?utm_source=wp_plugin_flipper', 'Quick Start Widget', 
+        'resizable=yes,width='+winWidth+',height='+winHeight+',left='+left+',top='+top);
+        return false;
+    });
+
+
+
     var maptable = $('#wpgmp_google_map_data_table').dataTable({
         "lengthMenu": [
             [10, 25, 50, 100, 200, 500, -1],
@@ -305,19 +321,15 @@ jQuery(document).ready(function($) {
     });
 
     $(".copy_to_clipboard").click(function () {
-        copy_to_clipboard('wpgmp_referrer')
+
+        let referrer_to_copy  = $(this).parent('.tooltip').prev('.referrer_to_create').val();
+        navigator.clipboard.writeText(referrer_to_copy);
+        $('span.tooltiptext').html(wpgmp_local.do_referrer_copy);
+        $(this).find('span.tooltiptext').html(wpgmp_local.referrer_copied);
+        
     });
 	
 });
-
-function copy_to_clipboard(id) {
-    
-    var copyText = document.getElementById(id);
-    copyText.select();
-    navigator.clipboard.writeText(copyText.value);
-    var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = wpgmp_local.referrer_copied;
-}
 
 function send_icon_to_map(imagesrc, target) {
      jQuery('#remove_image' + target).show();

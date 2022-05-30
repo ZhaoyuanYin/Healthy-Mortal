@@ -1656,7 +1656,8 @@
             $('#wpdt-star-number').on('change input focus', function () {
                 let starNum,
                     starNumEl = $(this),
-                    starNumValue = $(this).val();
+                    starNumValue = $(this).val(),
+                    starRatingNumber = starRateElement.rateYo("rating");
 
                 if (starNumValue == '' || isNaN(starNumValue)) {
                     starNumEl.val(1)
@@ -1672,6 +1673,8 @@
                 }
                 starRateElement.rateYo("option", "numStars", starNum);
                 starRateElement.rateYo("option", "maxValue", starNum);
+                starRatingNumber = starRatingNumber > starNum ? starNum : starRatingNumber;
+                starRateNumber.html(starRatingNumber + '/' + starNum);
             })
 
             starRateElement.rateYo("option", "onSet", function () {

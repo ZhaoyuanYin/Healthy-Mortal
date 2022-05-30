@@ -337,17 +337,14 @@ $tableChartsCount = (int)WDTTools::getTablesCount('chart');
                                  </span>
                         </p>
                         <p class="wpdt-text wpdt-font m-b-18">
-                            A major update with new chart engine and improvements:
+                            A minor update with bug fix and stability improvements:
                         </p>
                         <div class="alert alert-info m-b-0" role="alert">
                             <i class="wpdt-icon-info-circle-full"></i>
                             <ul>
-                                <li><strong>Improvement:</strong> Improved custom JS and CSS layout</li>
-                                <li><strong>BugFix:</strong> Fixed issue with Jet plugins in Elementor widgets.</li>
-                                <li><strong>BugFix:</strong> Fixed issue with Gutenberg blocks when Avada’s post/page types are disabled.</li>
-                                <li><strong>BugFix:</strong> Fixed issue with merge cells from context menu.</li>
-                                <li><strong>BugFix:</strong> Fixed issue with XSS vulnerability founded by mOze.</li>
-                                Other small bug fixes and stability improvements.
+                                <li><strong>BugFix:</strong> Fixed issue with showing tables insert from Divi integration.</li>
+                                <li>Compatibility with WordPress 6.0 approved.</li>
+                                <li>Other small bug fixes and stability improvements.</li>
                             </ul>
                         </div>
 
@@ -729,7 +726,7 @@ $tableChartsCount = (int)WDTTools::getTablesCount('chart');
                                 <?php esc_html_e('Appointments and Events WordPress Booking Plugin', 'wpdatatables'); ?>
                             </div>
                             <p class="wpdt-text wpdt-font m-b-0">
-                                <?php esc_html_e('Amelia Lite is a free appointment booking WordPress plugin that allows to set up a fully-featured automated booking system on your WordPress website and is a handy tool for small businesses and individuals that depend on stable appointment booking processes. 40,000+ businesses from healthcare, beauty, sports, automotive, educational, creative, HR and other industries use Amelia to flawlessly manage 330,000+ appointments and events worldwide each month.', 'wpdatatables'); ?></p>
+                                <?php esc_html_e('Amelia Lite is a free appointment booking WordPress plugin that allows to set up a fully-featured automated booking system on your WordPress website and is a handy tool for small businesses and individuals that depend on stable appointment booking processes. 40,000+ businesses from healthcare, beauty, sports, automotive, educational, creative, HR and other industries use Amelia to flawlessly manage 500,000+ appointments and events worldwide each month.', 'wpdatatables'); ?></p>
                             <p>
                                 <span class="wdt-stars-container stars-88">★★★★★</span>
                                 <span class="wdt-rating"> <?php esc_html_e('Rating: 4.3 - ‎97 reviews') ?></span>

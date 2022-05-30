@@ -1,22 +1,26 @@
-=== wpDataTables - Tables & Table Charts ===
+=== wpDataTables - WordPress Tables & Table Charts Plugin ===
 Contributors: wpDataTables
 Author URI: https://tms-outsource.com
 Plugin URI: https://wpdatatables.com/
-Tags: table, table builder, data tables, tables, charts, datatables, simple table, tables from csv, tables from excel, responsive tables, charting, pie charts, mysql tables, table plugin, wp table, WordPress table Plugin, Google Charts, Chartjs, Excel, JSON, XML, PHP array, line chart, donut, bar chart, histogram, area chart, bubble chart, gauge chart, scatter chart, candlestick, waterfall, polar, radar
+Tags: table, table builder, data tables, tables, charts, datatables, simple table, tables from csv, tables from excel, dynamic tables, responsive tables, csv, chart, pie charts, mysql tables, table plugin, wp table, wordpress table plugin, wordpress tables, google charts, chartjs, excel, json, xml, php array, line chart, donut, bar chart, histogram, area chart, bubble chart, gauge chart, scatter chart, candlestick, waterfall, polar, radar
 Requires at least: 4.0
-Tested up to: 5.9.2
+Tested up to: 6.0
 Requires PHP: 5.6
-Stable tag: 2.1.28
+Stable tag: 2.1.32
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create responsive, sortable tables & charts from Excel(.xlsx, .xls or .ods), CSV, JSON & PHP. Add tables & charts to posts in minutes with DataTables. Best WP table plugin.
+The best WordPress table plugin. Create responsive, searchable, sortable tables and charts from Excel (.xlsx, .xls or .ods), CSV, XML, JSON and PHP.
 
 == Description ==
 
-wpDataTables is a popular WordPress table plugin used to **quickly create tables & table charts** from Excel, CSV, JSON, PHP and other data sources. Use our WP table plugin to represent vast amounts of complicated data in concise, user-friendly way using tables or charts.
+wpDataTables is a popular WordPress table plugin used to **quickly create tables & table charts** from Excel, CSV, XML, JSON, PHP and other data sources. Use our WP table plugin to represent vast amounts of complicated data in concise, user-friendly way using tables or charts.
 
-**NEW!**  New table builder is introduced in wpDataTables – [creating simple tables from scratch](https://wpdatatables.com/documentation/creating-new-wpdatatables-with-table-constructor/creating-a-simple-table-with-wpdatatables/). These tables can be anything but simple, though, as you can now merge cells, style each cell differently, add star ratings to cells, and so much more.
+The main benefits wpDataTables provides to its users are **saved time** (as it automates displaying data in website and allows to do so without investing time in coding) and **no need to learn coding** (creating a WordPress table like in wpDataTable would require development without it).
+
+== Amazing WordPress Table Builder ==
+
+New table builder is introduced in wpDataTables – [Creating simple WordPress tables from scratch](https://wpdatatables.com/documentation/creating-new-wpdatatables-with-table-constructor/creating-a-simple-table-with-wpdatatables/). These tables can be anything but simple, though, as you can now merge cells, style each cell differently, add star ratings to cells, media and so much more.
 
 Here is the list of the new functionality in those simple tables:
 
@@ -31,18 +35,32 @@ Here is the list of the new functionality in those simple tables:
 * Add star rating
 * Custom links
 * Add media
-* Custom HTML
+* Custom HTML editor
 * Shortcode in cells
 * NEW Border options
 
 [youtube https://www.youtube.com/watch?v=06QF0wNEf94]
 
-* **NEW!** Simple table - [Text documentation](https://wpdatatables.com/documentation/creating-new-wpdatatables-with-table-constructor/creating-a-simple-table-with-wpdatatables/)
-* Excel - [Text and video documentation](https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-excel/)
-* CSV - [Text and video documentation](https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-csv/)
-* JSON - [Text and video documentation](https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-json-input/)
-* XML - [Text and video documentation](https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-xml/)
-* Serialized PHP array - [Text and video documentation](https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-serialized-php-array/)
+== Create WordPress table from Excel ==
+
+Microsoft Excel is a very powerful tool and one of the most efficient software for graphic-analytical and tabular data processing. It speeds up and make work in the workplace tables easier, easy to learn, easy to use and fast in displaying work results. It is awesome analysis spreadsheet for many business users. With wpDataTables, it’s even more powerful in WordPress environment. *.XLS* and *.XLSX* formats are also so common for storing data simpler, faster and more intuitive. wpDataTables is deeply integrated with Excel. In just a few clicks you can create awesome WordPress tables with search, sort, pagination, custom skins and lot more. Checkout more details in our documentation about [How to create WordPress tables from Excel files](https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-excel/) where you can find and video tutorials as well.
+
+== Make WordPress table from CSV ==
+
+The CSV, or *“comma-separated-values”* is a widely used format; It is lightweight, simple, can be generated by almost any software, and created manually by users. Beside 'comma', wpDataTables support 'colon', 'semicolon', 'vertical bar (pipe) and 'TAB' as CSV delimiter. You can create responsive, searchable and sortable WordPress tables quite easy. You can find detail instructions on the link [How to create WordPress tables from CSV files](https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-csv/).
+
+== Generate WordPress table from XML ==
+
+XML - *(Extensible Markup Language)* is a universal standard for presenting data. It is one of the most widely used standards for data transfer between the server and the client. It is increasingly used as a standard in which documents are saved (Libre Office and Microsoft Office). Finally, the HTML standard for creating web pages is derived from the SGML or XML standard. A lot of web services “run” on XML, and wpDataTables supports XML as an input data source as well. Find in our docs [How to create WordPress tables with XML](https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-xml/).
+
+== Build WordPress table from JSON ==
+
+JSON *(JavaScript Object Notation)* is a popular interlingual data exchange format. Many server applications provide public data in JSON format. JSON is based on the syntax of Javascript objects. Since most web applications use client-side JavaScript, JSON has become the 'de facto' standard for packing data on the web and wpDataTables also supports the JSON format as an input data source.
+Learn [How to create WordPress tables from JSON](https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-json-input/) in our documentation.
+
+== Develop dynamic WordPress table from Serialized PHP array ==
+
+For developer users, or users who are at least somewhat familiar with PHP language, that previous input data sources (Excel, CSV, XML of JSON) are not flexible enough for dynamic data presentation. We didn't want to limit your freedom in wpDataTables, so we implemented serialized PHP arrays as one of data sources. You can prepare data from some private or public API, or use WP Query to get data from your posts, get data by depending on some variables in the URL, or use some other complex logic. Learn how you can prepare a PHP file and [How to create WordPress tables based on serialized PHP arrays](https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-serialized-php-array/) in our docs.
 
 wpDataTables allows creating 14 different chart types using the Google Charts rendering engine:
 
@@ -61,7 +79,7 @@ wpDataTables allows creating 14 different chart types using the Google Charts re
 * Google Candlestick Chart - [Live example](https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-candlestick-chart)
 * Google Waterfall Chart - [Live example](https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-waterfall-chart)
 
-**NEW!** And now 9 more chart types with Chart.js engine, that renders simple and flexible charts with a lot of customization options:
+**NEW!** And now 9 more awesome chart types with Chart.js engine, that renders simple and flexible WordPress charts with a lot of customization options:
 
 * Chart.js Line Chart - [Live example](https://wpdatatables.com/documentation/wpdatacharts/chartjs/#chart-js-line-chart)
 * Chart.js Column Chart - [Live example](https://wpdatatables.com/documentation/wpdatacharts/chartjs/#chart-js-column-chart)
@@ -77,17 +95,32 @@ Creating tables and charts with a WordPress tables plugin has never been easier.
 
 **Step 1 - Provide table data**
 
-You can provide table data for WordPress tables by uploading Excel, CSV , JSON, XML or Serialized PHP array or you will create simple table from scratch with new table builder.
+You can provide table data for WordPress tables by uploading Excel, CSV , JSON, XML or Serialized PHP array, or you will create simple table from scratch with new WordPress table builder.
 
 **Step 2 - Customization**
 
-You can customize and configure the columns of your WordPress table (rename, reorder, add CSS classes, hide, change colors) and also you can customize and configure table Color and Font settings( Font, Header, Table border, Row , Cell and Pagination) in any way you see fit.
+You can customize and configure the columns of your WordPress table (rename, reorder, add CSS classes, add prefix or suffix, hide, change colors) and also you can customize and configure table Color and Font settings( Font, Header, Table border, Row , Cell and Pagination) in any way you see fit.
 
 **Step 3 - Publish in a post or page**
 
-Once you are happy with the design of your WordPress table, you can easily insert it on any post or page through [Gutenberg](https://wpdatatables.com/documentation/general/gutenberg-editor/), [standard WP Editor and shortcode](https://wpdatatables.com/documentation/general/wpdatatables-shortcodes/), or through page builders like [Avada Page Builder](https://wpdatatables.com/documentation/general/avada-builder-integration/), [Divi Page Builder](https://wpdatatables.com/documentation/general/divi-builder-integration/), [WPBakery Page Builder](https://wpdatatables.com/documentation/table-features/visual-composer-integration/) or [Elementor](https://wpdatatables.com/documentation/general/elementor-integration/). All tables (except simple table)  will become sortable and will have pagination by default.
+All tables (except simple table)  will become sortable and will have pagination, global search, display length and export table buttons by default. Once you are happy with the design of your WordPress table, you can easily insert it on any post or page through [Gutenberg](https://wpdatatables.com/documentation/general/gutenberg-editor/), [standard WP Editor and shortcode](https://wpdatatables.com/documentation/general/wpdatatables-shortcodes/), or through page builders like:
+* [Avada Page Builder](https://wpdatatables.com/documentation/general/avada-builder-integration/),
+* [Divi Page Builder](https://wpdatatables.com/documentation/general/divi-builder-integration/),
+* [WPBakery Page Builder](https://wpdatatables.com/documentation/table-features/visual-composer-integration/) or
+* [Elementor](https://wpdatatables.com/documentation/general/elementor-integration/).
 
-Additionally, each table (except simple table) can have a search bar and can have the following functions: “Copy to Clipboard”, “Export to CSV”, “Export to PDF”, “Export to XLS”. All these functionalities are configurable and it is your decision whether to toggle these on or off.
+
+== Export table data and column visibility (Table tools) ==
+
+Additionally, each table (except simple table) can have a search bar, display length, table info, pagination and can have the following export functions: “Copy to Clipboard”, “Export to CSV”, “Export to PDF”, “Export to XLS”, “Print“. Beside those export buttons, it is available column visibility button as well, with which you are able easily to control the visibility of columns in a WordPress table on back-end and front-end as well.
+All these functionalities are configurable, and it is your decision whether to toggle these on or off. More info in our docs about [Table tools in wpDataTables](https://wpdatatables.com/documentation/table-features/table-tools/) and [Table and column settings](https://wpdatatables.com/documentation/general/table-configuration-page-overview/) (simple table has own customization panel).
+
+== Global, individual and multiple columns sorting ==
+
+wpDataTables can act as a sortable table plugin by supporting sorting for all the data types. Tables rendered by the wpDataTables plugin are sortable by default (except simple tables). It means that the content of the table can be ordered by the values of one of its columns. When the sorting is enabled, each column header will become “interactive”. If you need to sort by multiple columns, it is possible with “Shift” button on the keyboard. While holding it you are able to click on other columns' header(initially, the ordering will be done based on the first column, and after that, based on the second column).
+Detail explanation you can find in our documentation about [Creating a sortable table in WordPress](https://wpdatatables.com/documentation/table-features/sorting/).
+
+== Column types and features ==
 
 Following column data types are supported in data tables (Data tables created from Excel, CSV, JSON, XML or Serialized PHP array). Most column types, except the images, have their own sorting rules:
 
@@ -100,6 +133,11 @@ Following column data types are supported in data tables (Data tables created fr
 * Image -   [Text and video documentation](https://wpdatatables.com/documentation/column-features/image-columns/)
 * URL link - [Text and video documentation](https://wpdatatables.com/documentation/column-features/url-link-columns/)
 * E-mail link - [Text and video documentation](https://wpdatatables.com/documentation/column-features/e-mail-link-columns/)
+
+== Row grouping ==
+
+If one column of your table contains similar values for many rows, it often makes sense to use it as a “group column”.This means it will not be displayed as a column, but its values will be used to group the rows.
+For detail explanation check out [How to set up row grouping in WordPress tables](https://wpdatatables.com/documentation/column-features/row-grouping/).
 
 Please note some limitations compared to the Premium version of the wpDataTables plugin:
 
@@ -135,7 +173,8 @@ However, the thing that really sets it apart is the possibility to manage any am
 
 **Do I Need wpDataTables?**
 
-Well, the short answer is – yes. If you want to create fully functional and great looking WordPress tables, you need wpDataTables. The number of the users currently taking advantage of this plugin is 30,000 and counting.
+Well, the short answer is – yes. If you want to create fully functional and great looking WordPress tables, you need wpDataTables. The number of the users currently taking advantage of this plugin is 60,000 and counting.
+
 The major features of wpDataTables include but are not limited to:
 
 * Building WordPress tables quickly and easily – no complicated configuration; just simple clicking;
@@ -144,21 +183,44 @@ The major features of wpDataTables include but are not limited to:
 * A WordPress table plugin that works like a spreadsheet app – with all the advanced features and tools, wpDataTables truly stands out from the competition;
 * 1 year of updates and support
 
+== Showcases how it is commonly applied ==
+
+* Pricing tables
+* Amazon product comparison table
+* Searchable catalogs of car parts, books, etc.
+* Currency and crypto rates
+* Financial and investment rates
+* Customer lists
+* Statistics data (weather for example)
+* Scientific data
+* Monitoring of data
+* Tourist agency - rating hotels and trips
+* Game popularity comparison
+* Gamers statistics
+* Monthly employee statistics
+* Product lists
+* Product lists with links to online stores
+* Pedigree tables
+* Historical data
+* Country population statistics
+* and all other cases or industries where data need to be shown as tabular or chart format.
+
+
 Additional useful features include:
 
-* [NEW! Customize options for each table](https://wpdatatables.com/documentation/table-features/customize-table/) – Now you can customize each table with different skin, font, background , colors and lot more.
+* [NEW! Customize options for each table](https://wpdatatables.com/documentation/table-features/customize-table/) – Now you can customize each table with different skin, font, background, colors and lot more.
 * [NEW! Create Tables via Google Spreadsheet API](https://wpdatatables.com/documentation/connect-wordpress-tables-with-google-sheets-api/) – Instant synchronization in wpDataTables after changes in Google sheets. Create tables from Private Google Spreadsheets.
 * [Multiple databases support](https://wpdatatables.com/documentation/general/configuration/#separate-connection) - wpDataTables is the only WordPress table plugin that can display the data from MySQL, MS SQL or PostgreSQL databases.
 * [Responsive Tables](https://wpdatatables.com/documentation/table-features/responsiveness/) – your WordPress tables will be 100% functional and they will look great on all screen and devices
-* [Huge Amount of Data](https://wpdatatables.com/documentation/creating-wpdatatables/creating-mysql-based-wpdatatables-with-server-side-processing/) – wpDataTables Premium can create huge tables in a matter of minutes. All the operations will be handled by the MySQL server.
+* [Huge Amount of Data](https://wpdatatables.com/documentation/creating-wpdatatables/creating-mysql-based-wpdatatables-with-server-side-processing/) – wpDataTables Premium can create huge tables (millions of rows) in a matter of minutes. All the operations will be handled by the MySQL server.
 * [Editable Tables](https://wpdatatables.com/documentation/front-end-editing/creating-editable-tables/) – you or any other WordPress user with access will be able to edit and/or adjust the published tables at any point
 * [Advanced Filters and Search](https://wpdatatables.com/documentation/table-features/advanced-filtering/)– you will be able to create individual filters that will help you narrow the search results in the table quickly and easily. You can also configure a cascade filter with the [Powerful Filters addon](https://wpdatatables.com/powerful-filtering/).
 * [Highlighting](https://wpdatatables.com/documentation/table-features/conditional-formatting/) – highlighting the rows, columns, cells of your WordPress tables etc. has never been easier with this plugin’s conditional formatting feature
 * [Charts](https://wpdatatables.com/documentation/wpdatacharts/creating-charts-wordpress-wpdatachart-wizard/) – you can easily turn every WordPress table into a beautiful chart. Charts are rendered by 4 powerful engines ([Google](https://wpdatatables.com/documentation/wpdatacharts/google-charts/), [Highcharts](https://wpdatatables.com/documentation/wpdatacharts/highcharts/), [Chart.js](https://wpdatatables.com/documentation/wpdatacharts/chartjs/) and **NEW** [ApexCharts](https://wpdatatables.com/documentation/wpdatacharts/apexcharts/)) and can change in real-time.
 * [Calculating Tools](https://wpdatatables.com/documentation/table-features/calculation-functions/) – calculating a sum, average, minimum and maximum of all the values for a given column is easier than ever with the wpDataTables advanced calculating tools
-* [Placeholders](https://wpdatatables.com/documentation/table-features/using-placeholders/) - make dynamic SQL Queries and use it through the shortcodes and as predefined values in filters and editing.
+* [Placeholders](https://wpdatatables.com/documentation/table-features/using-placeholders/) - make dynamic tables from SQL Queries and use it through the shortcodes and as predefined values in filters and editing.
 
-**Extend wpDataTables functionality with add-ons**
+== Extend wpDataTables functionality with add-ons ==
 
 wpDataTable Lite and Premium users have the option to extend wpDataTables functionality with **FREE** add-ons such as:
 1. [Forminator Forms Integration](https://wordpress.org/plugins/wpdatatables-forminator/) - that allows you to create wpDataTables from Forminator Forms submissions.
@@ -166,11 +228,19 @@ wpDataTable Lite and Premium users have the option to extend wpDataTables functi
 wpDataTable Premium users have the option to extend wpDataTables functionality with premium add-ons such as:
 1. [Master-detail tables](https://wpdatatables.com/documentation/addons/master-detail-tables/)** - which allows you and your site visitors to see details for each row with a simple click (view on popup or custom page/post)
 1. [Powerful Filters](https://wpdatatables.com/documentation/addons/powerful-filtering/)** - to filter table data in the WordPress Tables frontend with Cascade filters; it also allows you to hide the table before the filter is applied; show search button;
-1. [Report Builder](https://wpreportbuilder.com/)** - Generate Word or Excel reports from tables in your WP in 1 click
+1. [Report Builder](https://wpreportbuilder.com/)** - The Best WordPress report builder plugin that generate Word or Excel reports from your WP in 1 click.
 1. [Gravity Forms integration](https://wpdatatables.com/documentation/addons/gravity-forms-integration/)** - allows you to create editable wpDataTables from Gravity Forms entries data.
 1. [Formidable Forms Integration](https://wpdatatables.com/documentation/addons/formidable-forms-integration/)** - that allows you to create wpDataTables from Formidable Forms entries data.
 
 **Those add-ons are not included in the premium plugin. They have to be purchased separately.
+
+== For Developers ==
+
+This section is intended for advanced users to extend or change wpDataTables functionality. At least a basic understanding of coding in PHP and JavaScript is required.
+* [wpDataTables Actions](https://wpdatatables.com/documentation/information-for-developers/hooks/)
+* [wpDataTables Filters](https://wpdatatables.com/documentation/information-for-developers/filters/)
+* [Front-end Table callbacks](https://wpdatatables.com/documentation/information-for-developers/front-end-callbacks/)
+* [Front-end Chart callbacks](https://wpdatatables.com/documentation/information-for-developers/wpdatacharts-callbacks/)
 
 **What do people say about wpDataTables?**
 
@@ -188,6 +258,16 @@ wpDataTable Premium users have the option to extend wpDataTables functionality w
 
 ★★★★★
 >I am impressed. I thought this would be a basic plugin, but it is a very powerful and versatile plugin that offers many tools and settings. And if you need a hand using the plugin, their support is ready to help. Very professional. - [mycamgirl](https://wordpress.org/support/topic/very-powerful-and-versatile-plugin/)
+
+= Useful links =
+
+- Official Page - [wpDataTables - WordPress Table Plugin](https://wpdatatables.com/)
+- Documentation - [How to use wpDataTables?](https://wpdatatables.com/documentation/general/features-overview/)
+- Learn from our tutorials on [Youtube channel](https://www.youtube.com/c/wpDataTables)
+- [Showcases for every industry](https://wpdatatables.com/showcase/)
+- [Facebook Page](https://www.facebook.com/wpdatatables)
+- [Instagram Feed](https://www.instagram.com/wpdatatables/)
+- [Twitter Profile](https://twitter.com/wpdatatables)
 
 == Installation ==
 
@@ -249,6 +329,20 @@ This can be changed from the “Number format” drop-down menu in the wpDataTab
 12. Google chart settings
 
 == Changelog ==
+
+= 2.1.32 =
+* BugFix: Fixed issue with showing tables insert from Divi integration.
+* Compatibility with WordPress 6.0 approved.
+Other small bug fixes and stability improvements.
+
+= 2.1.31 =
+* Improvement: Remove unnecessary files from Divi integration.
+Other small bug fixes and stability improvements.
+
+= 2.1.29 =
+* BugFix: Fixed issue with inserting spaces for column prefix and suffix.
+* Compatibility with WordPress 5.9.3 approved.
+Other small bug fixes and stability improvements.
 
 = 2.1.28 =
 * Improvement: Improved custom JS and CSS layout

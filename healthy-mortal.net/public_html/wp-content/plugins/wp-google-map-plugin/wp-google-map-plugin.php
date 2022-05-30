@@ -5,7 +5,7 @@ Plugin URI: https://www.flippercode.com
 Description: A responsive Google Maps plugin to display custom markers on the google maps. Easily add locations and display custom messages in infowindow.
 Author: flippercode
 Author URI: https://www.flippercode.com
-Version: 4.2.9
+Version: 4.3.0
 Text Domain: wp-google-map-plugin
 Domain Path: /lang
 */
@@ -112,11 +112,7 @@ if ( ! class_exists( 'FC_Google_Maps_Lite' ) ) {
 
 			$scripts = array();
 			wp_enqueue_script( 'jquery' );
-			if ( isset( $_SERVER['HTTPS'] ) && ( 'on' == $_SERVER['HTTPS'] || 1 == $_SERVER['HTTPS'] ) || isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && 'https' == $_SERVER['HTTP_X_FORWARDED_PROTO'] ) {
-				$wpgmp_api_location = 'https';
-			} else {
-				$wpgmp_api_location = 'http';
-			}
+			
 			$language = get_option( 'wpgmp_language' );
 
 			if ( $language == '' ) {
@@ -124,14 +120,14 @@ if ( ! class_exists( 'FC_Google_Maps_Lite' ) ) {
 			}
 
 			if ( get_option( 'wpgmp_api_key' ) != '' ) {
-				$wpgmp_api_location .= '://maps.google.com/maps/api/js?key='.get_option( 'wpgmp_api_key' ).'&libraries=geometry,places,weather,panoramio,drawing&language='.$language;
+				$google_map_api = 'https://maps.google.com/maps/api/js?key='.get_option( 'wpgmp_api_key' ).'&libraries=geometry,places,weather,panoramio,drawing&language='.$language;
 			} else {
-				$wpgmp_api_location .= '://maps.google.com/maps/api/js?libraries=geometry,places,weather,panoramio,drawing&language='.$language;
+				$google_map_api = 'https://maps.google.com/maps/api/js?libraries=geometry,places,weather,panoramio,drawing&language='.$language;
 			}
 
 			$scripts[] = array(
 			'handle'  => 'wpgmp-google-api',
-			'src'   => $wpgmp_api_location,
+			'src'   => $google_map_api,
 			'deps'    => array(),
 			);
 			
@@ -326,16 +322,10 @@ if ( ! class_exists( 'FC_Google_Maps_Lite' ) ) {
 		 */
 		function wpgmp_backend_scripts() {
 
-			if ( isset( $_SERVER['HTTPS'] ) && ( 'on' == $_SERVER['HTTPS'] || 1 == $_SERVER['HTTPS'] ) || isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && 'https' == $_SERVER['HTTP_X_FORWARDED_PROTO'] ) {
-					$wpgmp_api_location = 'https';
-			} else {
-				$wpgmp_api_location = 'http';
-			}
-
 			if ( get_option( 'wpgmp_api_key' ) != '' ) {
-				$wpgmp_api_location .= '://maps.google.com/maps/api/js?key='.get_option( 'wpgmp_api_key' ).'&libraries=geometry,places,weather,panoramio,drawing&language=en';
+				$google_map_api = 'https://maps.google.com/maps/api/js?key='.get_option( 'wpgmp_api_key' ).'&libraries=geometry,places,weather,panoramio,drawing&language=en';
 			} else {
-				$wpgmp_api_location .= '://maps.google.com/maps/api/js?libraries=geometry,places,weather,panoramio,drawing&language=en';
+				$google_map_api = 'https://maps.google.com/maps/api/js?libraries=geometry,places,weather,panoramio,drawing&language=en';
 			}
 
 			wp_enqueue_style( 'thickbox' );
@@ -358,7 +348,7 @@ if ( ! class_exists( 'FC_Google_Maps_Lite' ) ) {
 
 			$scripts[] = array(
 			'handle'  => 'wpgmp-backend-google-api',
-			'src'   => $wpgmp_api_location,
+			'src'   => $google_map_api,
 			'deps'    => array(),
 			);
 
@@ -400,6 +390,7 @@ if ( ! class_exists( 'FC_Google_Maps_Lite' ) ) {
 			$wpgmp_local['confirm_bulk_delete'] = esc_html__( 'Are you sure you want to delete the selected records ?','wp-google-map-plugin' );
 			$wpgmp_local['confirm_overwrite_db'] = esc_html__( 'Overwrite existing google maps database?','wp-google-map-plugin' );
 			$wpgmp_local['referrer_copied'] = esc_html__( 'Referrer Was Copied','wp-google-map-plugin' );
+			$wpgmp_local['do_referrer_copy'] = esc_html__( 'Copy HTTP Referrer To Clipboard','wp-google-map-plugin' );
 			
 			
 			wp_localize_script( 'wpgmp-map', 'wpgmp_local', $wpgmp_local );
@@ -755,7 +746,7 @@ if ( ! class_exists( 'FC_Google_Maps_Lite' ) ) {
 			define( 'WPGMP_SLUG', 'wpgmp_view_overview' );
 			
 			if ( ! defined( 'WPGMP_VERSION' ) )
-			define( 'WPGMP_VERSION', '4.2.9' );
+			define( 'WPGMP_VERSION', '4.3.0' );
 			
 			if ( ! defined( 'WPGMP_FOLDER' ) )
 			define( 'WPGMP_FOLDER', basename( dirname( __FILE__ ) ) );

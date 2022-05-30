@@ -1203,6 +1203,108 @@
                             <div class="col-sm-4 m-b-16">
 
                                 <h4 class="c-title-color m-b-2">
+                                    %VAR4%
+                                    <i class=" wpdt-icon-info-circle-thin" data-toggle="tooltip" data-placement="right"
+                                       title="<?php esc_attr_e('This placeholder will be replaced with any value that you will provide in a shortcode. Provide a default value here that will be used for table generation and when a different one is not defined in the shortcode.', 'wpdatatables'); ?>"></i>
+                                </h4>
+
+                                <div class="fg-line form-group m-b-0">
+                                    <input id="wdt-var4-placeholder" type="text" class="form-control input-sm" disabled
+                                           placeholder="<?php esc_attr_e('Default for table generation', 'wpdatatables'); ?>">
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-4 m-b-16">
+
+                                <h4 class="c-title-color m-b-2">
+                                    %VAR5%
+                                    <i class="wpdt-icon-info-circle-thin" data-toggle="tooltip" data-placement="right"
+                                       title="<?php esc_attr_e('This placeholder will be replaced with any value that you will provide in a shortcode. Provide a default value here that will be used for table generation and when a different one is not defined in the shortcode.', 'wpdatatables'); ?>"></i>
+                                </h4>
+
+                                <div class="fg-line form-group  m-b-0">
+                                    <input id="wdt-var5-placeholder" type="text" class="form-control input-sm" disabled
+                                           placeholder="<?php esc_attr_e('Default for table generation', 'wpdatatables'); ?>">
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-4 m-b-16">
+
+                                <h4 class="c-title-color m-b-2">
+                                    %VAR6%
+                                    <i class="wpdt-icon-info-circle-thin" data-toggle="tooltip" data-placement="right"
+                                       title="<?php esc_attr_e('This placeholder will be replaced with any value that you will provide in a shortcode. Provide a default value here that will be used for table generation and when a different one is not defined in the shortcode.', 'wpdatatables'); ?>"></i>
+                                </h4>
+
+                                <div class="fg-line form-group m-b-0">
+                                    <input id="wdt-var6-placeholder" type="text" class="form-control input-sm" disabled
+                                           placeholder="<?php esc_attr_e('Default for table generation', 'wpdatatables'); ?>">
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- /.row -->
+
+                        <!-- .row -->
+                        <div class="row">
+
+                            <div class="col-sm-4 m-b-16">
+
+                                <h4 class="c-title-color m-b-2">
+                                    %VAR7%
+                                    <i class=" wpdt-icon-info-circle-thin" data-toggle="tooltip" data-placement="right"
+                                       title="<?php esc_attr_e('This placeholder will be replaced with any value that you will provide in a shortcode. Provide a default value here that will be used for table generation and when a different one is not defined in the shortcode.', 'wpdatatables'); ?>"></i>
+                                </h4>
+
+                                <div class="fg-line form-group m-b-0">
+                                    <input id="wdt-var7-placeholder" type="text" class="form-control input-sm" disabled
+                                           placeholder="<?php esc_attr_e('Default for table generation', 'wpdatatables'); ?>">
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-4 m-b-16">
+
+                                <h4 class="c-title-color m-b-2">
+                                    %VAR8%
+                                    <i class="wpdt-icon-info-circle-thin" data-toggle="tooltip" data-placement="right"
+                                       title="<?php esc_attr_e('This placeholder will be replaced with any value that you will provide in a shortcode. Provide a default value here that will be used for table generation and when a different one is not defined in the shortcode.', 'wpdatatables'); ?>"></i>
+                                </h4>
+
+                                <div class="fg-line form-group  m-b-0">
+                                    <input id="wdt-var8-placeholder" type="text" class="form-control input-sm" disabled
+                                           placeholder="<?php esc_attr_e('Default for table generation', 'wpdatatables'); ?>">
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-4 m-b-16">
+
+                                <h4 class="c-title-color m-b-2">
+                                    %VAR9%
+                                    <i class="wpdt-icon-info-circle-thin" data-toggle="tooltip" data-placement="right"
+                                       title="<?php esc_attr_e('This placeholder will be replaced with any value that you will provide in a shortcode. Provide a default value here that will be used for table generation and when a different one is not defined in the shortcode.', 'wpdatatables'); ?>"></i>
+                                </h4>
+
+                                <div class="fg-line form-group m-b-0">
+                                    <input id="wdt-var9-placeholder" type="text" class="form-control input-sm" disabled
+                                           placeholder="<?php esc_attr_e('Default for table generation', 'wpdatatables'); ?>">
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- /.row -->
+
+                        <!-- .row -->
+                        <div class="row">
+
+                            <div class="col-sm-4 m-b-16">
+
+                                <h4 class="c-title-color m-b-2">
                                     %CURRENT_USER_ID%
                                     <i class="wpdt-icon-info-circle-thin" data-toggle="tooltip" data-placement="right"
                                        title="<?php esc_attr_e('This placeholder will be replaced with the ID of currently logged in user. Provide a value here to be used for table generation', 'wpdatatables'); ?>"></i>

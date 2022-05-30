@@ -104,7 +104,7 @@ class WP_Calorie_Calculator_Public {
 
 		// Input data.
 		$user_email         = isset( $_POST['user_email'] ) ? sanitize_text_field( wp_unslash( $_POST['user_email'] ) ) : '';
-		$notification_email = ! empty( get_option( 'wpcc-notification-email', $admin_email ) ) ? get_option( 'wpcc-notification-email', $admin_email ) : get_option( 'admin_email' );
+		$notification_email = ! empty( get_option( 'wpcc-notification-email' ) ) ? get_option( 'wpcc-notification-email' ) : get_option( 'admin_email' );
 		$result             = isset( $_POST['result'] ) ? sanitize_text_field( wp_unslash( $_POST['result'] ) ) : '';
 		$metric_system      = isset( $_POST['fields']['metric_system'] ) ? sanitize_text_field( wp_unslash( $_POST['fields']['metric_system'] ) ) : '';
 		$goal               = isset( $_POST['fields']['goal'] ) ? sanitize_text_field( wp_unslash( $_POST['fields']['goal'] ) ) : '';
