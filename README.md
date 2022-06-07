@@ -2,7 +2,7 @@
 This project is used in FIT5120 to try to help international students eat healthy.
 The project is built with WordPress framework.
 
-Our website link: https://healthy-mortal.com/
+Our website link: https://healthy-mortal.net/
 
 Problem Statement
 
@@ -14,6 +14,6 @@ International Students who are overweight / obese and eat fast food frequently. 
 
 This project can be edited online in the cloud server or locally using the PhpStorm tool.
 
-If you want to edit online, please log in to the website background. (https://healthy-mortal.com/wp-admin)
+If you want to edit online, please log in to the website background. (https://healthy-mortal.net/wp-admin)
 
 If you want to edit locally, please refer to the Deployment Documentation in the Project Governance Portfolio (PGP) folder.
